@@ -18,7 +18,6 @@ public class TestBase {
     public static AppiumDriver driver;
 
 
-//    @BeforeTest
     public static void android_setUp() {
 
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -35,7 +34,7 @@ public class TestBase {
         }
     }
 
-//    @AfterTest
+    @AfterTest
     public static void tearDown() {
         if (driver != null) {
             driver.quit();

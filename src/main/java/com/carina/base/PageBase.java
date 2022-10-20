@@ -2,13 +2,14 @@ package com.carina.base;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class PageBase {
-    AppiumDriver driver;
+    private AppiumDriver driver;
     public static final long WAIT = 10;
 
     public PageBase(AppiumDriver appiumDriver) {

@@ -28,5 +28,8 @@ public class WebViewPage extends PageBase {
     public void clickLeftHambMenu() {
         click(leftHambMenu);
     }
+    public void waitToolbar(){
+        waitForVisibility(toolbar);
+    }
 
 }

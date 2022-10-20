@@ -5,7 +5,7 @@ import com.carina.base.PageBase;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
-import org.testng.annotations.Test;
+
 
 public class InitialPage extends PageBase {
     public InitialPage(AppiumDriver appiumDriver) {

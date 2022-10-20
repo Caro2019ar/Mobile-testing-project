@@ -1,6 +1,7 @@
 package com.carina.pages;
 
 import com.carina.base.TestBase;
+import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.*;
@@ -10,37 +11,28 @@ public class SignUpTest extends TestBase {
 
     @DataProvider
     public Object[][] signUpData() {
-        Object[][] data = new Object[3][3];
+        Object[][] data = new Object[1][3];
 
         data[0][0] = "Cristian";
         data[0][1] = "123456";
         data[0][2] = "male";
-        data[1][0] = "Carina Gonzalez";
-        data[1][1] = "pass1234";
-        data[1][2] = "female";
-        data[2][0] = "Ezequiel";
-        data[2][1] = "eze123";
-        data[2][2] = "male";
-
         return data;
     }
 
     SignUpPage signUpPage;
-     InitialPage initialPage;
+    InitialPage initialPage;
+    WebViewPage webViewPage;
 
-    @Test
-    public void setUpSignUp()  {
+    @BeforeClass
+    public void setUpSignUp() {
         android_setUp();
-        initialPage = new InitialPage(driver);
-        initialPage.clickNextBtn();
-        tearDown();
     }
 
     @Test(priority = 1, dataProvider = "signUpData")
-    public void enterNamePassGender(String name, String password, String gender) {
-
+    public void enterNamePasswordGender(String name, String password, String gender) {
+        initialPage = new InitialPage(driver);
         signUpPage = new SignUpPage(driver);
-
+        initialPage.clickNextBtn();
         signUpPage.enterName(name);
         signUpPage.enterPassword(password);
         if (gender.contains("female")) {
@@ -50,20 +42,6 @@ public class SignUpTest extends TestBase {
         }
     }
 
-    /*@Test(priority = 1)
-    public void enterYourName(String nameTxt) {
-
-
-    }
-    @Test(priority = 2)
-    public void enterPassword(String passwordTxt) {
-        ;
-    }
-
-    @Test(priority = 3)
-    public void selectGender(String gender) {
-
-    }*/
 
     @Test(priority = 2)
     public void clickOnAgree() {
@@ -75,9 +53,11 @@ public class SignUpTest extends TestBase {
         signUpPage.clickSignBtn();
     }
 
-   /* @AfterTest
+    @Test(priority = 4)
     public void signUpSuccessfully() {
-        Assert.assertEquals(driver.findElement(By.xpath("//android.widget.TextView[@text='Lorem ipsum']")).getText(), "Lorem ipsum");
-        tearDown();
-    }*/
+        webViewPage = new WebViewPage(driver);
+        webViewPage.waitToolbar();
+        Assert.assertTrue(driver.findElement(By.id("toolbar")).isDisplayed());
+    }
+
 }

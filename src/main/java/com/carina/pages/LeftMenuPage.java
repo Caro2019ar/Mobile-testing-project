@@ -11,15 +11,31 @@ public class LeftMenuPage extends PageBase {
         super(appiumDriver);
     }
 
-  /*  @AndroidFindBy(id = "design_menu_item_text")
-    MobileElement designMenu;*/
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='Lorem ipsum']")
+    MobileElement profileLorem;
 
-    @AndroidFindBy(xpath ="//android.widget.CheckedTextView[@text='Charts']")
+
+    @AndroidFindBy(xpath = "//android.widget.CheckedTextView[@text='Charts']")
     MobileElement chartsBtn;
 
+    @AndroidFindBy(xpath = "//android.widget.CheckedTextView[@text='Map']")
+    MobileElement mapBtn;
+
+    @AndroidFindBy(xpath = "//android.widget.CheckedTextView[@text='UI elements']")
+    MobileElement uiBtn;
 
     public void clickCharts() {
         click(chartsBtn);
+    }
+    public void clickMap() {
+        click(mapBtn);
+    }
+    public void clickUIElements() {
+        click(uiBtn);
+    }
+
+    public void waitProfile() {
+        waitForVisibility(profileLorem);
     }
 
 

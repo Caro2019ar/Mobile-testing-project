@@ -12,19 +12,14 @@ public class WebViewPage extends PageBase {
 
     @AndroidFindBy(accessibility = "Navigate up")
     MobileElement leftHambMenu;
-
     @AndroidFindBy(id = "toolbar")
     MobileElement toolbar;
-
     @AndroidFindBy(id = "image_view")
     MobileElement imageView;
-
 
     public void clickImageView() {
         click(imageView);
     }
-
-
     public void clickLeftHambMenu() {
         click(leftHambMenu);
     }

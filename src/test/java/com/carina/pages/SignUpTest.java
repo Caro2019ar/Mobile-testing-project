@@ -1,37 +1,25 @@
 package com.carina.pages;
 
 import com.carina.base.TestBase;
+import com.carina.dataproviders.SignUpDP;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.*;
 
-
+@Test(dependsOnGroups = "initialize")
 public class SignUpTest extends TestBase {
 
-    @DataProvider
-    public Object[][] signUpData() {
-        Object[][] data = new Object[1][3];
-
-        data[0][0] = "Cristian";
-        data[0][1] = "123456";
-        data[0][2] = "male";
-        return data;
-    }
-
-    SignUpPage signUpPage;
-    InitialPage initialPage;
-    WebViewPage webViewPage;
+    private SignUpPage signUpPage;
+    private WebViewPage webViewPage;
 
     @BeforeClass
     public void setUpSignUp() {
-        android_setUp();
+        signUpPage = new SignUpPage(driver);
+        webViewPage = new WebViewPage(driver);
     }
 
-    @Test(priority = 1, dataProvider = "signUpData")
+    @Test(dataProviderClass = SignUpDP.class, dataProvider = "signUpData")
     public void enterNamePasswordGender(String name, String password, String gender) {
-        initialPage = new InitialPage(driver);
-        signUpPage = new SignUpPage(driver);
-        initialPage.clickNextBtn();
         signUpPage.enterName(name);
         signUpPage.enterPassword(password);
         if (gender.contains("female")) {
@@ -42,19 +30,18 @@ public class SignUpTest extends TestBase {
     }
 
 
-    @Test(priority = 2)
+    @Test(dependsOnMethods = "enterNamePasswordGender")
     public void clickOnAgree() {
         signUpPage.clickCheckBtn();
     }
 
-    @Test(priority = 3)
+    @Test(dependsOnMethods = "clickOnAgree")
     public void clickOnSignup() {
         signUpPage.clickSignBtn();
     }
 
-    @Test(priority = 4)
+    @Test(dependsOnMethods = "clickOnSignup")
     public void signUpSuccessfully() {
-        webViewPage = new WebViewPage(driver);
         webViewPage.waitToolbar();
         Assert.assertTrue(driver.findElement(By.id("toolbar")).isDisplayed());
     }

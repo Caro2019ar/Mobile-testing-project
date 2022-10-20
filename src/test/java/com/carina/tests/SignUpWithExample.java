@@ -5,6 +5,8 @@ import com.carina.SignUpPage;
 import com.carina.base.TestBase;
 import org.openqa.selenium.By;
 import org.testng.Assert;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 
 import java.net.MalformedURLException;
 

@@ -7,4 +7,4 @@ Mobile testing of Carinademoexample.apk
 - Allure report
 - Log4J
 
-![Android Provisorio] (https://github.com/Caro2019ar/Mobile-testing-project/tree/master/src/main/resources/android.gif)
+![android](https://user-images.githubusercontent.com/70411447/196942078-5fb8161b-6453-4c3e-95f1-52e6585ef8eb.gif)

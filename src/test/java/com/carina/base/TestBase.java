@@ -7,6 +7,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
@@ -17,7 +18,7 @@ public class TestBase {
     public static AppiumDriver driver;
 
 
-    @Test
+//    @BeforeTest
     public static void android_setUp() {
 
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -34,7 +35,7 @@ public class TestBase {
         }
     }
 
-    @AfterTest
+//    @AfterTest
     public static void tearDown() {
         if (driver != null) {
             driver.quit();

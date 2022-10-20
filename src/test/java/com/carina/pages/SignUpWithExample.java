@@ -1,12 +1,10 @@
-package com.carina.tests;
+package com.carina.pages;
 
-import com.carina.InitialPage;
-import com.carina.SignUpPage;
+import com.carina.pages.InitialPage;
+import com.carina.pages.SignUpPage;
 import com.carina.base.TestBase;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeTest;
 
 import java.net.MalformedURLException;
 

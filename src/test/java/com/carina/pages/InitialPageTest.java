@@ -1,4 +1,4 @@
-package com.carina.tests;
+package com.carina.pages;
 
 import com.carina.base.TestBase;
 

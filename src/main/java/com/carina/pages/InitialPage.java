@@ -1,4 +1,4 @@
-package com.carina;
+package com.carina.pages;
 
 
 import com.carina.base.PageBase;

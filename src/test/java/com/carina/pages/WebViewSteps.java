@@ -1,7 +1,7 @@
-package com.carina.tests;
+package com.carina.pages;
 
 
-import com.carina.WebViewPage;
+import com.carina.pages.WebViewPage;
 import com.carina.base.TestBase;
 import org.openqa.selenium.By;
 import org.testng.Assert;

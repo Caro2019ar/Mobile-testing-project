@@ -1,4 +1,4 @@
-package com.carina;
+package com.carina.pages;
 
 import com.carina.base.PageBase;
 import io.appium.java_client.AppiumDriver;
@@ -16,13 +16,6 @@ public class WebViewPage extends PageBase {
     @AndroidFindBy(id = "toolbar")
     MobileElement toolbar;
 
-  /*  @AndroidFindBy(id = "design_menu_item_text")
-    MobileElement designMenu;*/
-
-
-    @AndroidFindBy(xpath ="//android.widget.CheckedTextView[@text='Charts']")
-    MobileElement chartsBtn;
-
     @AndroidFindBy(id = "image_view")
     MobileElement imageView;
 
@@ -31,9 +24,6 @@ public class WebViewPage extends PageBase {
         click(imageView);
     }
 
-    public void clickCharts() {
-        click(chartsBtn);
-    }
 
     public void clickLeftHambMenu() {
         click(leftHambMenu);

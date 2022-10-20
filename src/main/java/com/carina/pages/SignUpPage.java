@@ -1,4 +1,4 @@
-package com.carina;
+package com.carina.pages;
 
 
 import com.carina.base.PageBase;
@@ -25,6 +25,9 @@ public class SignUpPage extends PageBase {
     @AndroidFindBy(id = "login_button")
     MobileElement signUpBtn;
 
+    @AndroidFindBy(id="loginForm")
+    MobileElement loginForm;
+
     public void enterName(String nameTxt) {
         clear(nameSignUp);
         sendText(nameSignUp, nameTxt);
@@ -49,5 +52,9 @@ public class SignUpPage extends PageBase {
 
     public void clickSignBtn() {
         click(signUpBtn);
+    }
+
+    public void waitLoginForm(){
+        waitForVisibility(loginForm);
     }
 }

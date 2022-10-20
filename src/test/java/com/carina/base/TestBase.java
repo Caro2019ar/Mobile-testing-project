@@ -7,6 +7,8 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
 import java.net.MalformedURLException;
@@ -16,10 +18,8 @@ public class TestBase {
 
     public static AppiumDriver driver;
 
-
-    @Test
+    @BeforeSuite
     public static void android_setUp() {
-
         DesiredCapabilities caps = new DesiredCapabilities();
         caps.setCapability("platformName", "Android");
         caps.setCapability("platformVersion", "9.0");
@@ -30,7 +30,7 @@ public class TestBase {
             driver = new AndroidDriver<>(new URL("http://localhost:4723/wd/hub"), caps);
             Log.info("Driver setUp OK");
         } catch (MalformedURLException e) {
-            Log.error("error");
+            Log.error("Error to setup driver: " + e.getMessage());
         }
     }
 

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="Smoke Suite Carina Mobile" parallel="tests">
+    <test name="Initial Page and Sign Up">
+        <classes>
+            <groups>
+                <define name="initialize">
+                    <class name="com.carina.pages.InitialPageTest">
+                        <methods>
+                            <include name="clickOnNext"/>
+                        </methods>
+                    </class>
+                </define>
+            </groups>
+            <class name="com.carina.pages.SignUpTest">
+            </class>
+            <class name="com.carina.pages.WebViewTest">
+            </class>
+        </classes>
+    </test>
+</suite>

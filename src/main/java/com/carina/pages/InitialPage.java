@@ -1,10 +1,11 @@
-package com.carina;
+package com.carina.pages;
 
 
 import com.carina.base.PageBase;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+
 
 public class InitialPage extends PageBase {
     public InitialPage(AppiumDriver appiumDriver) {

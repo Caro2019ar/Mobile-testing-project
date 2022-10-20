@@ -7,4 +7,5 @@ Mobile testing of Carinademoexample.apk
 - Allure report
 - Log4J
 
-![android](https://user-images.githubusercontent.com/70411447/196942078-5fb8161b-6453-4c3e-95f1-52e6585ef8eb.gif)
+
+![signUp-pixel](https://user-images.githubusercontent.com/70411447/197006562-2275eac0-5c26-4667-afe7-243aaba68aff.gif)

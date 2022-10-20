@@ -8,12 +8,10 @@ import org.testng.annotations.Test;
 
 public class ChartsPageTest extends TestBase {
     private ChartsPage chartsPage;
-    AndroidDriver androidDriver;
 
     @BeforeClass
     public void setUpChartsPage(){
         chartsPage = new ChartsPage(driver);
-
     }
 
     @Test

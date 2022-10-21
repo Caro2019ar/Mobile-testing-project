@@ -5,6 +5,7 @@ import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidDriver;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeSuite;
@@ -17,7 +18,7 @@ import java.net.URL;
 public class TestBase {
 
     public static AppiumDriver driver;
-
+    public static ThreadLocal<WebDriver> tdriver = new ThreadLocal<WebDriver>();
     @BeforeSuite
     public static void android_setUp() {
         DesiredCapabilities caps = new DesiredCapabilities();
@@ -33,7 +34,10 @@ public class TestBase {
             Log.error("Error to setup driver: " + e.getMessage());
         }
     }
-
+    public static synchronized WebDriver getWebDriver() {
+        tdriver.set(driver);
+        return tdriver.get();
+    }
     @AfterTest
     public static void tearDown() {
         if (driver != null) {

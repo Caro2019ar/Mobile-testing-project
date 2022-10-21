@@ -9,6 +9,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
 @Test(groups = {"initialize"})
+@Epic("EP001")
+@Feature("Feature: Initial page")
+@Severity(SeverityLevel.BLOCKER)
 public class InitialPageTest extends TestBase {
     private InitialPage initialPage;
     private SignUpPage signUpPage;
@@ -20,16 +23,14 @@ public class InitialPageTest extends TestBase {
     }
     @Test
     @Description("Verify and click on NEXT  button")
-    @Epic("EP001")
-    @Feature("Feature: Initial page")
     @Story("Story: Can initiate app")
     @Step("Initiate page and click on NEXT")
-    @Severity(SeverityLevel.BLOCKER)
     public void clickOnNext() {
         initialPage.clickNextBtn();
     }
 
     @Test(dependsOnMethods = "clickOnNext")
+    @Description("goToSignupPageSuccessfully")
     public void goToSignupPageSuccessfully() {
         signUpPage.waitLoginForm();
         Assert.assertTrue(driver.findElement(By.id("loginForm")).isDisplayed());

@@ -78,3 +78,6 @@
 2022-10-20 19:38:16,646 INFO c.c.u.l.Log [main] Driver setUp OK
 2022-10-20 19:38:36,268 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
 2022-10-20 19:38:43,119 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
+2022-10-21 08:20:41,160 INFO c.c.u.l.Log [main] Driver setUp OK
+2022-10-21 08:21:03,068 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
+2022-10-21 08:21:09,511 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2

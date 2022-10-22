@@ -15,10 +15,10 @@
             </class>
             <class name="com.carina.pages.WebViewTest">
             </class>
-            <class name="com.carina.pages.LeftMenuPageTest">
+         <!--   <class name="com.carina.pages.LeftMenuPageTest">
             </class>
             <class name="com.carina.pages.ChartsPageTest">
-            </class>
+            </class>-->
         </classes>
     </test>
 </suite>

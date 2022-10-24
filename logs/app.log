@@ -11,3 +11,57 @@
 2022-10-22 06:30:14,689 INFO c.c.u.l.Log [main] Driver setUp OK
 2022-10-22 06:30:27,736 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
 2022-10-22 06:30:34,207 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
+2022-10-22 17:52:36,809 INFO c.c.u.l.Log [main] platformName : null
+2022-10-22 17:53:04,618 INFO c.c.u.l.Log [main] Driver setUp OK
+2022-10-22 17:55:28,556 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
+2022-10-22 17:55:47,702 INFO c.c.u.l.Log [main] Driver setUp OK
+2022-10-22 17:56:02,300 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
+2022-10-22 17:56:08,635 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
+2022-10-22 18:00:07,292 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
+2022-10-22 18:00:07,296 INFO c.c.u.l.Log [main] capabilities.platformVersio : null
+2022-10-22 18:00:07,296 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-22 18:00:07,296 INFO c.c.u.l.Log [main] capabilities.noReset : true
+2022-10-22 18:00:07,296 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-22 18:00:24,676 INFO c.c.u.l.Log [main] Driver setUp OK
+2022-10-22 18:02:05,496 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
+2022-10-22 18:02:05,501 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-22 18:02:05,501 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-22 18:02:05,501 INFO c.c.u.l.Log [main] capabilities.noReset : true
+2022-10-22 18:02:05,501 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-22 18:02:05,501 INFO c.c.u.l.Log [main] capabilities.app : https://qaprosoft.s3-us-west-2.amazonaws.com/carinademoexample.apk
+2022-10-22 18:02:23,376 INFO c.c.u.l.Log [main] Driver setUp OK
+2022-10-22 18:04:04,260 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
+2022-10-22 18:04:04,266 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-22 18:04:04,266 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-22 18:04:04,266 INFO c.c.u.l.Log [main] capabilities.noReset : true
+2022-10-22 18:04:04,266 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-22 18:04:04,266 INFO c.c.u.l.Log [main] capabilities.app : https://qaprosoft.s3-us-west-2.amazonaws.com/carinademoexample.apk
+2022-10-22 18:04:04,378 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-22 18:04:24,404 INFO c.c.u.l.Log [main] Driver setUp OK
+2022-10-24 12:39:37,316 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
+2022-10-24 12:39:37,319 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-24 12:39:37,319 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-24 12:39:37,319 INFO c.c.u.l.Log [main] capabilities.noReset : true
+2022-10-24 12:39:37,319 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-24 12:39:37,373 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-24 12:39:53,206 INFO c.c.u.l.Log [main] Driver setUp OK
+2022-10-24 12:40:06,170 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
+2022-10-24 12:40:12,691 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
+2022-10-24 12:41:45,990 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
+2022-10-24 12:41:45,994 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-24 12:41:45,994 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-24 12:41:45,995 INFO c.c.u.l.Log [main] capabilities.noReset : true
+2022-10-24 12:41:45,995 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-24 12:41:46,053 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-24 12:41:58,381 INFO c.c.u.l.Log [main] Driver setUp OK
+2022-10-24 12:42:18,218 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
+2022-10-24 12:42:24,819 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
+2022-10-24 12:43:55,677 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
+2022-10-24 12:43:55,681 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-24 12:43:55,681 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-24 12:43:55,681 INFO c.c.u.l.Log [main] capabilities.noReset : true
+2022-10-24 12:43:55,681 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-24 12:43:55,729 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-24 12:44:05,711 INFO c.c.u.l.Log [main] Driver setUp OK
+2022-10-24 12:44:29,518 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
+2022-10-24 12:44:37,567 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2

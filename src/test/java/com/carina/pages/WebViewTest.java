@@ -2,10 +2,11 @@ package com.carina.pages;
 
 
 import com.carina.allureReport.AllureListener;
-import com.carina.base.ContextHandler;
 import com.carina.base.TestBase;
-import com.carina.base.WebViewPageBase;
-import io.qameta.allure.*;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -26,20 +27,20 @@ public class WebViewTest extends TestBase {
         leftMenuPage = new LeftMenuPage(driver);
     }
 
-    /*@Test
+    @Test
     public void openLeftMenu() {
         webViewPage.clickLeftHambMenu();
         leftMenuPage.waitProfile();
         Assert.assertEquals(driver.findElement(By.xpath("//android.widget.TextView[@text='Lorem ipsum']")).getText(), "Lorem ipsum");
-    }*/
+    }
 
-    @Test
+/*    @Test
     @Description("Webview right menu")
     @Story("Story: user can open right menu")
     @Step("Click on right menu of WebView")
     public void clickRightHambMenu() {
         ContextHandler.changeContext(driver);
         webViewPage.clickRightMenuWeb();
-    }
+    }*/
 
 }

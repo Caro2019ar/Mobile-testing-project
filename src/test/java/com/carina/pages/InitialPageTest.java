@@ -1,7 +1,6 @@
 package com.carina.pages;
 
 import com.carina.base.TestBase;
-import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;

@@ -1,5 +1,6 @@
 package com.carina.pages;
 
+import com.carina.allureReport.AllureListener;
 import com.carina.base.TestBase;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
@@ -20,18 +21,23 @@ public class InitialPageTest extends TestBase {
         initialPage = new InitialPage(driver);
         signUpPage = new SignUpPage(driver);
     }
+
     @Test
     @Description("Verify and click on NEXT  button")
     @Story("Story: Can initiate app")
     @Step("Initiate page and click on NEXT")
     public void clickOnNext() {
         initialPage.clickNextBtn();
+        AllureListener.takeScreenShot(driver);
     }
 
     @Test(dependsOnMethods = "clickOnNext")
     @Description("goToSignupPageSuccessfully")
+    @Step("goToSignupPageSuccessfully")
     public void goToSignupPageSuccessfully() {
         signUpPage.waitLoginForm();
         Assert.assertTrue(driver.findElement(By.id("loginForm")).isDisplayed());
     }
+
+
 }

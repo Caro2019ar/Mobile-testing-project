@@ -1,30 +1,25 @@
 package com.carina.pages;
 
-import com.carina.base.PageBase;
+import com.carina.base.WebViewPageBase;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileElement;
-import io.appium.java_client.pagefactory.AndroidFindBy;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
 
-public class WebViewPage extends PageBase {
+public class WebViewPage extends WebViewPageBase {
+
+
     public WebViewPage(AppiumDriver appiumDriver) {
         super(appiumDriver);
     }
 
-    @AndroidFindBy(accessibility = "Navigate up")
-    MobileElement leftHambMenu;
-    @AndroidFindBy(id = "toolbar")
-    MobileElement toolbar;
-    @AndroidFindBy(id = "image_view")
-    MobileElement imageView;
-
-    public void clickImageView() {
-        click(imageView);
-    }
-    public void clickLeftHambMenu() {
-        click(leftHambMenu);
-    }
-    public void waitToolbar(){
-        waitForVisibility(toolbar);
+    @FindBy(xpath = "//*[@id=\"rec42972268\"]/div[2]/div/div[2]")
+    WebElement burgerWeb;
+    // classname= t228_burger
+    public void clickRightMenuWeb() {
+        clickWeb(burgerWeb);
     }
 
+
+    //readongithub
+    // xpath = //*[@id="nav40073764"]/div/div[3]/div/ul/li[1]/a
 }

@@ -8,7 +8,7 @@ public class SignUpDP {
     public static Object[][] signUpData() {
         Object[][] data = new Object[1][3];
 
-        data[0][0] = "Cristian";
+        data[0][0] = "John Vader";
         data[0][1] = "123456";
         data[0][2] = "male";
         return data;

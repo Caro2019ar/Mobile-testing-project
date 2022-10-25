@@ -7,13 +7,12 @@ import java.util.Set;
 
 public class ContextHandler {
 
-    public static void changeContext(AppiumDriver driver) {
+    public static void changeContext(AppiumDriver driver, String contextName) {
         Set<String> contexts = driver.getContextHandles();
         for (String context : contexts) {
-            Log.info("Actual context: " + context + " -contexts size: " + contexts.size());
-            driver.context((String) contexts.toArray()[1]);
+            Log.info("Context: " + context);
+            driver.context(contextName);
         }
-        driver.context((String) contexts.toArray()[1]);
     }
 
 }

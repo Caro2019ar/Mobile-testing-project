@@ -4,6 +4,7 @@ import com.carina.allureReport.AllureListener;
 import com.carina.base.ContextHandler;
 import com.carina.base.TestBase;
 import com.carina.pagesObj.ChartsPage;
+import com.carina.util.ContextUtil;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -30,8 +31,13 @@ public class ChartsPageTest extends TestBase {
     @Description("chartsPageClick")
     @Step("chartsPageClick")
     public void chartsPageClick() {
-        ContextHandler.changeContext(driver);
+        ContextHandler.changeContext(driver, ContextUtil.WEB.getContext());
         chartsPage.clickAcChart();
+    }
+    @Test
+    @Description("chartsPageClick2")
+    @Step("chartsPageClick2")
+    public void chartsPageClick2() {
         Assert.assertTrue(driver.findElement(By.id("ac_chart_2")).isDisplayed());
     }
 }

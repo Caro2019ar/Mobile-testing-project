@@ -3,10 +3,7 @@ package com.carina.pages;
 
 import com.carina.allureReport.AllureListener;
 import com.carina.base.TestBase;
-import io.qameta.allure.Epic;
-import io.qameta.allure.Feature;
-import io.qameta.allure.Severity;
-import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
@@ -28,6 +25,8 @@ public class WebViewTest extends TestBase {
     }
 
     @Test
+    @Description("openLeftMenu")
+    @Step("openLeftMenu")
     public void openLeftMenu() {
         webViewPage.clickLeftHambMenu();
         leftMenuPage.waitProfile();

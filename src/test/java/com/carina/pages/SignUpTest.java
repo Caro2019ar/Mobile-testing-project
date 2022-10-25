@@ -59,6 +59,7 @@ public class SignUpTest extends TestBase {
 
     @Test(dependsOnMethods = "clickOnSignup")
     @Description("Assert signUpSuccessfully")
+    @Step("signUpSuccessfully")
     public void signUpSuccessfully() {
         webViewPageBase.waitToolbar();
         Assert.assertTrue(driver.findElement(By.id("toolbar")).isDisplayed());

@@ -6,9 +6,11 @@ import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Test(groups = {"initialize"})
+@Listeners({AllureListener.class})
 @Epic("EP001")
 @Feature("Feature: Initial page")
 @Severity(SeverityLevel.BLOCKER)

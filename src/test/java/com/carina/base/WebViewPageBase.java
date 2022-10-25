@@ -1,6 +1,5 @@
 package com.carina.base;
 
-import com.carina.base.PageBase;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;

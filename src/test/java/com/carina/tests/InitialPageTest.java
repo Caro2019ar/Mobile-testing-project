@@ -1,7 +1,9 @@
-package com.carina.pages;
+package com.carina.tests;
 
 import com.carina.allureReport.AllureListener;
 import com.carina.base.TestBase;
+import com.carina.pagesObj.InitialPage;
+import com.carina.pagesObj.SignUpPage;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -15,8 +17,10 @@ import org.testng.annotations.Test;
 @Feature("Feature: Initial page")
 @Severity(SeverityLevel.BLOCKER)
 public class InitialPageTest extends TestBase {
+
     private InitialPage initialPage;
     private SignUpPage signUpPage;
+
 
     @BeforeClass
     public void setUpInitialPage() {

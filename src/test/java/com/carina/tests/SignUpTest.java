@@ -1,20 +1,23 @@
-package com.carina.pages;
+package com.carina.tests;
 
 
 import com.carina.allureReport.AllureListener;
 import com.carina.base.TestBase;
 import com.carina.base.WebViewPageBase;
 import com.carina.dataproviders.SignUpDP;
+import com.carina.pagesObj.SignUpPage;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
 
 @Listeners({AllureListener.class})
 @Epic("EP001")
 @Feature("Feature: Signup page")
 @Severity(SeverityLevel.BLOCKER)
-@Test(dependsOnGroups = "initialize")
+@Test(groups = {"signup"}, dependsOnGroups = "initialize")
 public class SignUpTest extends TestBase {
 
     private SignUpPage signUpPage;

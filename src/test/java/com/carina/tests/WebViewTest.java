@@ -1,8 +1,12 @@
-package com.carina.pages;
+package com.carina.tests;
 
 
 import com.carina.allureReport.AllureListener;
+import com.carina.base.DriverThread;
 import com.carina.base.TestBase;
+import com.carina.pagesObj.LeftMenuPage;
+import com.carina.pagesObj.WebViewPage;
+import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -14,7 +18,9 @@ import org.testng.annotations.Test;
 @Epic("EP001")
 @Feature("Feature: WebView Hybrid page")
 @Severity(SeverityLevel.CRITICAL)
+@Test(groups = {"webview"}, dependsOnGroups = "signup")
 public class WebViewTest extends TestBase {
+
     private WebViewPage webViewPage;
     private LeftMenuPage leftMenuPage;
 

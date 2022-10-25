@@ -1,16 +1,20 @@
-package com.carina.pages;
+package com.carina.tests;
 
 import com.carina.allureReport.AllureListener;
 import com.carina.base.TestBase;
-import io.qameta.allure.Description;
-import io.qameta.allure.Step;
+import com.carina.pagesObj.LeftMenuPage;
+import io.qameta.allure.*;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 @Listeners({AllureListener.class})
-@Test(dependsOnGroups = "initialize")
+@Test(groups = {"leftMenu"}, dependsOnGroups = "webview")
+@Epic("EP001")
+@Feature("Feature: Left Menu")
+@Severity(SeverityLevel.CRITICAL)
 public class LeftMenuPageTest extends TestBase {
+
     private LeftMenuPage leftMenuPage;
 
     @BeforeClass

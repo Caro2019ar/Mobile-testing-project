@@ -1,4 +1,4 @@
-package com.carina.utils.logs;
+package com.carina.logs;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;

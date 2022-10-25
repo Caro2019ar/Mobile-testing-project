@@ -1,8 +1,9 @@
-package com.carina.pages;
+package com.carina.pagesObj;
 
 import com.carina.base.PageBase;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
+import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 public class LeftMenuPage extends PageBase {
@@ -10,6 +11,7 @@ public class LeftMenuPage extends PageBase {
     public LeftMenuPage(AppiumDriver appiumDriver) {
         super(appiumDriver);
     }
+
 
     @AndroidFindBy(xpath = "//android.widget.TextView[@text='Lorem ipsum']")
     MobileElement profileLorem;

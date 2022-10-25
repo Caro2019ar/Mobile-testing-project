@@ -1,184 +1,122 @@
-2022-10-21 15:32:18,734 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-21 15:32:42,960 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-21 15:32:51,283 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-21 15:36:00,121 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-21 15:36:20,248 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-21 15:36:26,955 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-21 15:40:18,987 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-21 15:40:39,358 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-21 15:40:46,323 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-22 06:20:27,788 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-22 06:30:14,689 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-22 06:30:27,736 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-22 06:30:34,207 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-22 17:52:36,809 INFO c.c.u.l.Log [main] platformName : null
-2022-10-22 17:53:04,618 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-22 17:55:28,556 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-22 17:55:47,702 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-22 17:56:02,300 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-22 17:56:08,635 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-22 18:00:07,292 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-22 18:00:07,296 INFO c.c.u.l.Log [main] capabilities.platformVersio : null
-2022-10-22 18:00:07,296 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-22 18:00:07,296 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-22 18:00:07,296 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-22 18:00:24,676 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-22 18:02:05,496 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-22 18:02:05,501 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-22 18:02:05,501 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-22 18:02:05,501 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-22 18:02:05,501 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-22 18:02:05,501 INFO c.c.u.l.Log [main] capabilities.app : https://qaprosoft.s3-us-west-2.amazonaws.com/carinademoexample.apk
-2022-10-22 18:02:23,376 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-22 18:04:04,260 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-22 18:04:04,266 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-22 18:04:04,266 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-22 18:04:04,266 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-22 18:04:04,266 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-22 18:04:04,266 INFO c.c.u.l.Log [main] capabilities.app : https://qaprosoft.s3-us-west-2.amazonaws.com/carinademoexample.apk
-2022-10-22 18:04:04,378 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-22 18:04:24,404 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 12:39:37,316 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 12:39:37,319 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 12:39:37,319 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 12:39:37,319 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 12:39:37,319 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 12:39:37,373 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 12:39:53,206 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 12:40:06,170 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-24 12:40:12,691 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-24 12:41:45,990 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 12:41:45,994 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 12:41:45,994 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 12:41:45,995 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 12:41:45,995 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 12:41:46,053 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 12:41:58,381 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 12:42:18,218 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-24 12:42:24,819 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-24 12:43:55,677 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 12:43:55,681 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 12:43:55,681 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 12:43:55,681 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 12:43:55,681 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 12:43:55,729 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 12:44:05,711 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 12:44:29,518 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-24 12:44:37,567 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-24 15:01:09,354 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 15:01:09,358 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 15:01:09,358 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 15:01:09,358 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 15:01:09,358 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 15:01:09,415 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 15:01:29,410 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 15:03:33,941 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 15:03:33,946 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 15:03:33,946 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 15:03:33,946 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 15:03:33,946 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 15:03:34,000 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 15:03:51,336 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 15:08:15,010 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 15:08:15,014 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 15:08:15,014 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 15:08:15,014 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 15:08:15,014 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 15:08:15,079 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 15:08:32,427 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 15:14:55,989 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 15:14:55,992 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 15:14:55,992 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 15:14:55,992 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 15:14:55,992 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 15:14:56,045 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 15:15:16,294 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 15:25:24,901 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 15:25:24,906 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 15:25:24,906 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 15:25:24,906 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 15:25:24,906 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 15:25:24,959 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 15:25:46,458 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 15:30:11,871 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 15:30:11,875 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 15:30:11,876 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 15:30:11,876 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 15:30:11,876 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 15:30:11,928 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 15:30:35,060 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 15:37:34,252 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 15:37:34,261 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 15:37:34,262 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 15:37:34,262 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 15:37:34,262 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 15:37:34,377 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 15:37:55,340 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 15:59:30,293 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 15:59:30,297 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 15:59:30,298 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 15:59:30,298 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 15:59:30,298 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 15:59:30,350 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 15:59:49,891 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 16:00:13,043 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-24 16:00:19,831 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-24 16:15:59,918 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 16:15:59,922 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 16:15:59,923 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 16:15:59,923 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 16:15:59,923 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 16:15:59,968 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 16:16:12,968 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 16:16:36,890 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-24 16:16:42,890 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-24 16:23:32,324 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 16:23:32,327 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 16:23:32,327 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 16:23:32,327 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 16:23:32,327 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 16:23:32,377 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 16:23:48,191 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 16:24:14,369 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-24 16:24:20,207 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-24 16:33:55,679 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 16:33:55,682 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 16:33:55,682 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 16:33:55,682 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 16:33:55,682 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 16:33:55,723 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 16:34:10,549 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-24 16:34:33,457 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-24 16:34:39,501 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-24 16:46:56,182 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-24 16:46:56,184 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-24 16:46:56,184 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-24 16:46:56,184 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-24 16:46:56,184 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-24 16:46:56,226 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-24 16:47:09,993 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-25 08:43:55,132 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-25 08:43:55,134 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-25 08:43:55,134 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-25 08:43:55,134 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-25 08:43:55,134 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-25 08:43:55,184 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-25 08:44:15,175 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-25 08:44:41,786 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-25 08:44:48,196 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
-2022-10-25 08:48:41,795 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-25 08:48:41,798 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-25 08:48:41,798 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-25 08:48:41,798 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-25 08:48:41,798 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-25 08:48:41,839 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-25 08:49:00,325 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-25 08:50:38,075 INFO c.c.u.l.Log [main] capabilities.platformName : ANDROID
-2022-10-25 08:50:38,078 INFO c.c.u.l.Log [main] capabilities.platformVersion : 9.0
-2022-10-25 08:50:38,079 INFO c.c.u.l.Log [main] capabilities.automationName : UiAutomator2
-2022-10-25 08:50:38,079 INFO c.c.u.l.Log [main] capabilities.noReset : true
-2022-10-25 08:50:38,079 INFO c.c.u.l.Log [main] capabilities.autoGrantPermissions : true
-2022-10-25 08:50:38,130 INFO c.c.u.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
-2022-10-25 08:50:56,479 INFO c.c.u.l.Log [main] Driver setUp OK
-2022-10-25 08:51:20,473 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: NATIVE_APP -contexts size: 2
-2022-10-25 08:51:27,192 INFO c.c.u.l.Log [TestNG-tests-1] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
+
+2022-10-25 13:14:13,532 INFO c.c.l.Log [main] -----onStart method Initial Page and Sign Up
+2022-10-25 13:14:13,570 INFO c.c.l.Log [main] capabilities.platformName : ANDROID
+2022-10-25 13:14:13,570 INFO c.c.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-25 13:14:13,570 INFO c.c.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-25 13:14:13,570 INFO c.c.l.Log [main] capabilities.noReset : true
+2022-10-25 13:14:13,570 INFO c.c.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-25 13:14:13,628 INFO c.c.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-25 13:14:35,114 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] onTestStart - method openLeftMenu start
+2022-10-25 13:14:35,114 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] onTestStart - method clickOnNext start
+2022-10-25 13:14:39,398 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] ----- Method clickOnNext succeed
+2022-10-25 13:14:39,398 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] No driver----------------
+2022-10-25 13:14:39,411 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] onTestStart - method clickOnChart start
+2022-10-25 13:14:39,420 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method enterNamePasswordGender start
+2022-10-25 13:14:43,912 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method enterNamePasswordGender succeed
+2022-10-25 13:14:43,913 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] No driver----------------
+2022-10-25 13:14:43,915 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method clickOnAgree start
+2022-10-25 13:14:44,629 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method clickOnAgree succeed
+2022-10-25 13:14:44,629 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] No driver----------------
+2022-10-25 13:14:44,630 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method clickOnSignup start
+2022-10-25 13:14:45,258 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] -----onTestFailure - method openLeftMenu failed
+2022-10-25 13:14:45,258 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] No driver----------------
+2022-10-25 13:14:45,264 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] onTestStart - method chartsPageClick start
+2022-10-25 13:14:45,405 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] Actual context: NATIVE_APP -contexts size: 1
+2022-10-25 13:14:45,410 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] -----onTestFailure - method chartsPageClick failed
+2022-10-25 13:14:45,411 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] No driver----------------
+2022-10-25 13:14:45,474 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method clickOnSignup succeed
+2022-10-25 13:14:45,474 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] No driver----------------
+2022-10-25 13:14:45,476 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method signUpSuccessfully start
+2022-10-25 13:14:52,414 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] -----onTestFailure - method clickOnChart failed
+2022-10-25 13:14:52,414 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] No driver----------------
+2022-10-25 13:14:53,488 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method signUpSuccessfully succeed
+2022-10-25 13:14:53,488 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] No driver----------------
+2022-10-25 13:14:54,202 INFO c.c.l.Log [main]  onFinish - method Initial Page and Sign Up
+2022-10-25 13:29:01,764 INFO c.c.l.Log [main] -----onStart method Initial Page and Sign Up
+2022-10-25 13:29:01,830 INFO c.c.l.Log [main] capabilities.platformName : ANDROID
+2022-10-25 13:29:01,830 INFO c.c.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-25 13:29:01,831 INFO c.c.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-25 13:29:01,831 INFO c.c.l.Log [main] capabilities.noReset : true
+2022-10-25 13:29:01,831 INFO c.c.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-25 13:29:01,937 INFO c.c.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-25 13:29:20,604 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] onTestStart - method clickOnNext start
+2022-10-25 13:29:25,275 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] ----- Method clickOnNext succeed
+2022-10-25 13:29:25,275 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] No driver----------------
+2022-10-25 13:29:25,303 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] onTestStart - method enterNamePasswordGender start
+2022-10-25 13:29:28,662 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] ----- Method enterNamePasswordGender succeed
+2022-10-25 13:29:28,663 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] No driver----------------
+2022-10-25 13:29:28,664 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method clickOnAgree start
+2022-10-25 13:29:29,303 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method clickOnAgree succeed
+2022-10-25 13:29:29,304 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] No driver----------------
+2022-10-25 13:29:29,305 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method clickOnSignup start
+2022-10-25 13:29:29,947 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method clickOnSignup succeed
+2022-10-25 13:29:29,947 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] No driver----------------
+2022-10-25 13:29:29,948 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method signUpSuccessfully start
+2022-10-25 13:29:37,849 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method signUpSuccessfully succeed
+2022-10-25 13:29:37,849 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] No driver----------------
+2022-10-25 13:29:37,868 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method openLeftMenu start
+2022-10-25 13:29:41,740 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method openLeftMenu succeed
+2022-10-25 13:29:41,740 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] No driver----------------
+2022-10-25 13:29:41,744 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method clickOnChart start
+2022-10-25 13:29:42,315 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method clickOnChart succeed
+2022-10-25 13:29:42,315 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] No driver----------------
+2022-10-25 13:29:42,320 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method chartsPageClick start
+2022-10-25 13:29:43,736 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] Actual context: NATIVE_APP -contexts size: 2
+2022-10-25 13:29:51,852 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
+2022-10-25 13:29:53,167 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method chartsPageClick succeed
+2022-10-25 13:29:53,167 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] No driver----------------
+2022-10-25 13:29:54,475 INFO c.c.l.Log [main]  onFinish - method Initial Page and Sign Up
+2022-10-25 13:34:43,399 INFO c.c.l.Log [main] -----onStart method Initial Page and Sign Up
+2022-10-25 13:34:43,443 INFO c.c.l.Log [main] capabilities.platformName : ANDROID
+2022-10-25 13:34:43,444 INFO c.c.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-25 13:34:43,444 INFO c.c.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-25 13:34:43,444 INFO c.c.l.Log [main] capabilities.noReset : true
+2022-10-25 13:34:43,444 INFO c.c.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-25 13:34:43,497 INFO c.c.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-25 13:35:04,358 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] onTestStart - method clickOnNext start
+2022-10-25 13:35:08,346 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-1] ----- Method clickOnNext succeed
+2022-10-25 13:35:08,378 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] onTestStart - method enterNamePasswordGender start
+2022-10-25 13:35:12,508 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-2] ----- Method enterNamePasswordGender succeed
+2022-10-25 13:35:12,510 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] onTestStart - method clickOnAgree start
+2022-10-25 13:35:13,135 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-3] ----- Method clickOnAgree succeed
+2022-10-25 13:35:13,137 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-4] onTestStart - method clickOnSignup start
+2022-10-25 13:35:14,576 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-4] ----- Method clickOnSignup succeed
+2022-10-25 13:35:14,578 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-5] onTestStart - method signUpSuccessfully start
+2022-10-25 13:35:22,737 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-5] ----- Method signUpSuccessfully succeed
+2022-10-25 13:35:22,767 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-5] onTestStart - method openLeftMenu start
+2022-10-25 13:35:26,740 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-5] ----- Method openLeftMenu succeed
+2022-10-25 13:35:26,744 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-5] onTestStart - method clickOnChart start
+2022-10-25 13:35:27,502 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-5] ----- Method clickOnChart succeed
+2022-10-25 13:35:27,509 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-5] onTestStart - method chartsPageClick start
+2022-10-25 13:35:29,546 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-5] Actual context: NATIVE_APP -contexts size: 2
+2022-10-25 13:35:36,321 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-5] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
+2022-10-25 13:35:37,786 INFO c.c.l.Log [TestNG-test=Initial Page and Sign Up-5] ----- Method chartsPageClick succeed
+2022-10-25 13:35:38,911 INFO c.c.l.Log [main]  onFinish - method Initial Page and Sign Up
+2022-10-25 13:42:58,966 INFO c.c.l.Log [main] -----onStart method Smoke Tests for Carina Mobile
+2022-10-25 13:42:59,006 INFO c.c.l.Log [main] capabilities.platformName : ANDROID
+2022-10-25 13:42:59,006 INFO c.c.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-25 13:42:59,006 INFO c.c.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-25 13:42:59,006 INFO c.c.l.Log [main] capabilities.noReset : true
+2022-10-25 13:42:59,006 INFO c.c.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-25 13:42:59,058 INFO c.c.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-25 13:43:22,464 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-1] onTestStart - method clickOnNext start
+2022-10-25 13:43:29,111 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-1] ----- Method clickOnNext succeed
+2022-10-25 13:43:29,120 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] onTestStart - method goToSignupPageSuccessfully start
+2022-10-25 13:43:29,361 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] ----- Method goToSignupPageSuccessfully succeed
+2022-10-25 13:43:29,397 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-3] onTestStart - method enterNamePasswordGender start
+2022-10-25 13:43:32,727 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-3] ----- Method enterNamePasswordGender succeed
+2022-10-25 13:43:32,730 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-4] onTestStart - method clickOnAgree start
+2022-10-25 13:43:33,367 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-4] ----- Method clickOnAgree succeed
+2022-10-25 13:43:33,371 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickOnSignup start
+2022-10-25 13:43:33,970 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickOnSignup succeed
+2022-10-25 13:43:33,973 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method signUpSuccessfully start
+2022-10-25 13:43:37,300 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method signUpSuccessfully succeed
+2022-10-25 13:43:37,319 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method openLeftMenu start
+2022-10-25 13:43:41,857 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method openLeftMenu succeed
+2022-10-25 13:43:41,861 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickOnChart start
+2022-10-25 13:43:42,896 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickOnChart succeed
+2022-10-25 13:43:42,901 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method chartsPageClick start
+2022-10-25 13:43:43,632 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Actual context: NATIVE_APP -contexts size: 2
+2022-10-25 13:43:49,829 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Actual context: WEBVIEW_com.solvd.carinademoapplication -contexts size: 2
+2022-10-25 13:43:51,249 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method chartsPageClick succeed
+2022-10-25 13:43:52,055 INFO c.c.l.Log [main]  onFinish - method Smoke Tests for Carina Mobile

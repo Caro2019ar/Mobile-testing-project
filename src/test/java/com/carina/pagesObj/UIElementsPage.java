@@ -1,4 +1,4 @@
-package com.carina.pages;
+package com.carina.pagesObj;
 
 import com.carina.base.WebViewPageBase;
 import io.appium.java_client.AppiumDriver;
@@ -48,4 +48,9 @@ public class UIElementsPage extends WebViewPageBase {
     @AndroidFindBy(id = "switch1")
     MobileElement enableBtn;
 
+
+    public void enterName(String nameTxt) {
+        clear(editText);
+        sendText(editText, nameTxt);
+    }
 }

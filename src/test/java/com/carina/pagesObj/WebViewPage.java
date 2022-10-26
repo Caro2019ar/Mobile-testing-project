@@ -1,7 +1,8 @@
-package com.carina.pages;
+package com.carina.pagesObj;
 
 import com.carina.base.WebViewPageBase;
 import io.appium.java_client.AppiumDriver;
+import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -12,9 +13,8 @@ public class WebViewPage extends WebViewPageBase {
         super(appiumDriver);
     }
 
-    @FindBy(xpath = "//*[@id=\"rec42972268\"]/div[2]/div/div[2]")
+    @FindBy(xpath = "//*[@id=\"rec42972268\"]")
     WebElement burgerWeb;
-    // classname= t228_burger
     public void clickRightMenuWeb() {
         clickWeb(burgerWeb);
     }

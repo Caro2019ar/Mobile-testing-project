@@ -1,23 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<suite name="Smoke Suite Carina Mobile" parallel="tests">
-    <test name="Initial Page and Sign Up">
+<suite name="Smoke Suite Carina Mobile" parallel="methods" thread-count="5">
+    <test name="Smoke Tests for Carina Mobile">
         <classes>
-            <groups>
-                <define name="initialize">
-                    <class name="com.carina.pages.InitialPageTest">
-                        <methods>
-                            <include name="clickOnNext"/>
-                        </methods>
-                    </class>
-                </define>
-            </groups>
-            <class name="com.carina.pages.SignUpTest">
+            <class name="com.carina.tests.InitialPageTest">
             </class>
-            <class name="com.carina.pages.WebViewTest">
+            <class name="com.carina.tests.SignUpTest">
             </class>
-           <class name="com.carina.pages.LeftMenuPageTest">
+            <class name="com.carina.tests.WebViewTest">
             </class>
-            <class name="com.carina.pages.ChartsPageTest">
+            <class name="com.carina.tests.LeftMenuPageTest">
+            </class>
+            <class name="com.carina.tests.ChartsPageTest">
+            </class>
+            <class name="com.carina.tests.UIElementsPageTest">
             </class>
         </classes>
     </test>

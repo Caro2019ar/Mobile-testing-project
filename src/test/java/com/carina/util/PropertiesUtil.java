@@ -1,6 +1,6 @@
 package com.carina.util;
 
-import com.carina.utils.logs.Log;
+import com.carina.logs.Log;
 import java.io.IOException;
 import java.util.Properties;
 

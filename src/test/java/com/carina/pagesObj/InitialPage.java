@@ -1,4 +1,4 @@
-package com.carina.pages;
+package com.carina.pagesObj;
 
 
 import com.carina.base.PageBase;
@@ -8,8 +8,10 @@ import io.appium.java_client.pagefactory.AndroidFindBy;
 
 
 public class InitialPage extends PageBase {
-    public InitialPage(AppiumDriver appiumDriver) {
-        super(appiumDriver);
+
+
+    public InitialPage(AppiumDriver driver) {
+        super(driver);
     }
 
     @AndroidFindBy(id = "next_button")
@@ -18,4 +20,6 @@ public class InitialPage extends PageBase {
     public void clickNextBtn() {
         click(nextBtn);
     }
+
+
 }

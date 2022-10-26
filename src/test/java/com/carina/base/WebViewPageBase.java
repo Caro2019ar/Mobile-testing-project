@@ -1,6 +1,5 @@
 package com.carina.base;
 
-import com.carina.base.PageBase;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
@@ -9,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebViewPageBase extends PageBase {
-
+    public static final long WAIT = 10;
     public WebViewPageBase(AppiumDriver appiumDriver) {
         super(appiumDriver);
     }

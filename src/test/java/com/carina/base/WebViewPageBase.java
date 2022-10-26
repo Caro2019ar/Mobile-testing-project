@@ -8,7 +8,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebViewPageBase extends PageBase {
-
+    public static final long WAIT = 10;
     public WebViewPageBase(AppiumDriver appiumDriver) {
         super(appiumDriver);
     }

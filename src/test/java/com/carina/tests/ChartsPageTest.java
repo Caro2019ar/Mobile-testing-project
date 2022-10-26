@@ -30,14 +30,10 @@ public class ChartsPageTest extends TestBase {
     @Test
     @Description("chartsPageClick")
     @Step("chartsPageClick")
-    public void chartsPageClick() {
+    public void chartsPageClick() throws InterruptedException {
+        Thread.sleep(4000);
         ContextHandler.changeContext(driver, ContextUtil.WEB.getContext());
         chartsPage.clickAcChart();
     }
-    @Test
-    @Description("chartsPageClick2")
-    @Step("chartsPageClick2")
-    public void chartsPageClick2() {
-        Assert.assertTrue(driver.findElement(By.id("ac_chart_2")).isDisplayed());
-    }
+
 }

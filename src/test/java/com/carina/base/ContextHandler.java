@@ -10,9 +10,17 @@ public class ContextHandler {
     public static void changeContext(AppiumDriver driver, String contextName) {
         Set<String> contexts = driver.getContextHandles();
         for (String context : contexts) {
-            Log.info("Context: " + context);
-            driver.context(contextName);
+            Log.info("Context 1: " + context);
+            if (context.contains("WEBVIEW") && contextName.contains("WEB")) {
+                Log.debug("Context 1 - Contains WEBVIEW: " + context);
+                driver.context(context);
+            } else if (context.contains("NATIVE") && contextName.contains("NATIVE")) {
+                Log.debug("Context 2: " + context);
+                driver.context(context);
+            }
+
         }
     }
+
 
 }

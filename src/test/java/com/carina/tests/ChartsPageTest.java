@@ -4,10 +4,9 @@ import com.carina.allureReport.AllureListener;
 import com.carina.base.ContextHandler;
 import com.carina.base.TestBase;
 import com.carina.pagesObj.ChartsPage;
+import com.carina.pagesObj.WebViewPage;
 import com.carina.util.ContextUtil;
 import io.qameta.allure.*;
-import org.openqa.selenium.By;
-import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
@@ -21,19 +20,30 @@ import org.testng.annotations.Test;
 public class ChartsPageTest extends TestBase {
 
     private ChartsPage chartsPage;
+    private WebViewPage webViewPage;
 
     @BeforeClass
-    public void setUpChartsPage() {
+    public void setUpWebView() {
+        webViewPage = new WebViewPage(driver);
         chartsPage = new ChartsPage(driver);
     }
 
+
     @Test
-    @Description("chartsPageClick")
-    @Step("chartsPageClick")
-    public void chartsPageClick() throws InterruptedException {
-        Thread.sleep(4000);
-        ContextHandler.changeContext(driver, ContextUtil.WEB.getContext());
-        chartsPage.clickAcChart();
+    @Description("Show charts page")
+    @Step("showChartsPage")
+    public void showChartsPage() throws InterruptedException {
+        Thread.sleep(5000);
+
     }
+
+    @Test(dependsOnMethods = "showChartsPage")
+    @Description("Go back to left menu")
+    @Step("click on left Menu and open it")
+    public void clickLeftMenu() throws InterruptedException {
+        ContextHandler.changeContext(driver, ContextUtil.NATIVE.getContext());
+        webViewPage.clickLeftHambMenu();
+    }
+
 
 }

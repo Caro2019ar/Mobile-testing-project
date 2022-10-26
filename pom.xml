@@ -11,6 +11,7 @@
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
         <aspectj.version>1.8.10</aspectj.version>
+        <threads>5</threads>
     </properties>
     <dependencies>
         <dependency>
@@ -53,7 +54,7 @@
                         <version>2.19.1</version>
                         <configuration>
                             <parallel>methods</parallel>
-                            <threadCount>5</threadCount>
+                            <threadCount>${threads}</threadCount>
                         </configuration>
                     </plugin>
                     <plugin>
@@ -62,7 +63,7 @@
                         <version>2.20</version>
                         <configuration>
                             <parallel>methods</parallel>
-                            <threadCount>5</threadCount>
+                            <threadCount>${threads}</threadCount>
                             <suiteXmlFiles>
                                 <suiteXmlFile>androidtestng.xml</suiteXmlFile>
                             </suiteXmlFiles>

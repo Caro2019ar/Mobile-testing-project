@@ -1,0 +1,125 @@
+2022-10-26 13:25:35,300 INFO c.c.l.Log [main] -----onStart method Smoke Tests for Carina Mobile
+2022-10-26 13:25:35,329 INFO c.c.l.Log [main] capabilities.platformName : ANDROID
+2022-10-26 13:25:35,329 INFO c.c.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-26 13:25:35,329 INFO c.c.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-26 13:25:35,329 INFO c.c.l.Log [main] capabilities.noReset : true
+2022-10-26 13:25:35,329 INFO c.c.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-26 13:25:35,393 INFO c.c.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-26 13:25:49,593 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-1] onTestStart - method clickOnNext start
+2022-10-26 13:25:52,961 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-1] ----- Method clickOnNext succeed
+2022-10-26 13:25:52,968 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] onTestStart - method goToSignupPageSuccessfully start
+2022-10-26 13:25:53,404 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] ----- Method goToSignupPageSuccessfully succeed
+2022-10-26 13:25:53,423 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-3] onTestStart - method enterNamePasswordGender start
+2022-10-26 13:25:56,806 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-3] ----- Method enterNamePasswordGender succeed
+2022-10-26 13:25:56,807 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-4] onTestStart - method clickOnAgree start
+2022-10-26 13:25:57,409 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-4] ----- Method clickOnAgree succeed
+2022-10-26 13:25:57,411 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickOnSignup start
+2022-10-26 13:25:58,022 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickOnSignup succeed
+2022-10-26 13:25:58,024 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method signUpSuccessfully start
+2022-10-26 13:26:05,006 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method signUpSuccessfully succeed
+2022-10-26 13:26:05,030 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickRightHambMenu start
+2022-10-26 13:26:06,155 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
+2022-10-26 13:26:06,155 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:26:06,155 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1 - Contains WEBVIEW: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:26:13,340 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickRightHambMenu succeed
+2022-10-26 13:26:13,343 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method openLeftMenu start
+2022-10-26 13:26:13,735 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
+2022-10-26 13:26:13,735 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 2: NATIVE_APP
+2022-10-26 13:26:13,980 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:26:15,855 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method openLeftMenu succeed
+2022-10-26 13:26:15,858 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickOnChart start
+2022-10-26 13:26:16,854 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickOnChart succeed
+2022-10-26 13:26:16,859 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method showChartsPage start
+2022-10-26 13:26:21,868 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method showChartsPage succeed
+2022-10-26 13:26:21,870 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickLeftMenu start
+2022-10-26 13:26:22,114 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
+2022-10-26 13:26:22,115 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 2: NATIVE_APP
+2022-10-26 13:26:22,133 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:26:22,304 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickLeftMenu succeed
+2022-10-26 13:26:23,261 INFO c.c.l.Log [main]  onFinish - method Smoke Tests for Carina Mobile
+2022-10-26 13:37:16,592 INFO c.c.l.Log [main] -----onStart method Smoke Tests for Carina Mobile
+2022-10-26 13:37:16,631 INFO c.c.l.Log [main] capabilities.platformName : ANDROID
+2022-10-26 13:37:16,631 INFO c.c.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-26 13:37:16,632 INFO c.c.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-26 13:37:16,632 INFO c.c.l.Log [main] capabilities.noReset : true
+2022-10-26 13:37:16,632 INFO c.c.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-26 13:37:16,691 INFO c.c.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-26 13:37:34,518 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-1] onTestStart - method clickOnNext start
+2022-10-26 13:37:38,194 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-1] ----- Method clickOnNext succeed
+2022-10-26 13:37:38,204 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] onTestStart - method goToSignupPageSuccessfully start
+2022-10-26 13:37:38,486 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] ----- Method goToSignupPageSuccessfully succeed
+2022-10-26 13:37:38,521 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-3] onTestStart - method enterNamePasswordGender start
+2022-10-26 13:37:42,275 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-3] ----- Method enterNamePasswordGender succeed
+2022-10-26 13:37:42,277 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-4] onTestStart - method clickOnAgree start
+2022-10-26 13:37:42,913 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-4] ----- Method clickOnAgree succeed
+2022-10-26 13:37:42,916 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickOnSignup start
+2022-10-26 13:37:43,567 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickOnSignup succeed
+2022-10-26 13:37:43,569 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method signUpSuccessfully start
+2022-10-26 13:37:51,737 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method signUpSuccessfully succeed
+2022-10-26 13:37:51,753 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickRightHambMenu start
+2022-10-26 13:37:52,232 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
+2022-10-26 13:37:52,232 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:37:52,232 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1 - Contains WEBVIEW: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:37:59,021 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickRightHambMenu succeed
+2022-10-26 13:37:59,023 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method openLeftMenu start
+2022-10-26 13:37:59,460 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
+2022-10-26 13:37:59,460 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 2: NATIVE_APP
+2022-10-26 13:37:59,788 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:38:02,747 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method openLeftMenu succeed
+2022-10-26 13:38:02,750 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickOnChart start
+2022-10-26 13:38:03,360 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickOnChart succeed
+2022-10-26 13:38:03,365 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method showChartsPage start
+2022-10-26 13:38:08,388 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method showChartsPage succeed
+2022-10-26 13:38:08,390 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickLeftMenu start
+2022-10-26 13:38:08,616 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
+2022-10-26 13:38:08,616 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 2: NATIVE_APP
+2022-10-26 13:38:08,634 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:38:08,779 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickLeftMenu succeed
+2022-10-26 13:38:08,786 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-3] onTestStart - method insertDatainUIElements start
+2022-10-26 13:38:08,786 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method goToUIElements start
+2022-10-26 13:38:16,837 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-3] ----- Method insertDatainUIElements succeed
+2022-10-26 13:38:19,054 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method goToUIElements succeed
+2022-10-26 13:38:20,296 INFO c.c.l.Log [main]  onFinish - method Smoke Tests for Carina Mobile
+2022-10-26 13:40:44,288 INFO c.c.l.Log [main] -----onStart method Smoke Tests for Carina Mobile
+2022-10-26 13:40:44,385 INFO c.c.l.Log [main] capabilities.platformName : ANDROID
+2022-10-26 13:40:44,387 INFO c.c.l.Log [main] capabilities.platformVersion : 9.0
+2022-10-26 13:40:44,387 INFO c.c.l.Log [main] capabilities.automationName : UiAutomator2
+2022-10-26 13:40:44,387 INFO c.c.l.Log [main] capabilities.noReset : true
+2022-10-26 13:40:44,387 INFO c.c.l.Log [main] capabilities.autoGrantPermissions : true
+2022-10-26 13:40:44,634 INFO c.c.l.Log [main] androiddriver.url : http://localhost:4723/wd/hub
+2022-10-26 13:41:00,265 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-1] onTestStart - method clickOnNext start
+2022-10-26 13:41:03,426 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-1] ----- Method clickOnNext succeed
+2022-10-26 13:41:03,431 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] onTestStart - method goToSignupPageSuccessfully start
+2022-10-26 13:41:03,597 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] ----- Method goToSignupPageSuccessfully succeed
+2022-10-26 13:41:03,614 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-3] onTestStart - method enterNamePasswordGender start
+2022-10-26 13:41:06,743 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-3] ----- Method enterNamePasswordGender succeed
+2022-10-26 13:41:06,745 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-4] onTestStart - method clickOnAgree start
+2022-10-26 13:41:07,353 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-4] ----- Method clickOnAgree succeed
+2022-10-26 13:41:07,356 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickOnSignup start
+2022-10-26 13:41:07,973 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickOnSignup succeed
+2022-10-26 13:41:07,975 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method signUpSuccessfully start
+2022-10-26 13:41:13,907 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method signUpSuccessfully succeed
+2022-10-26 13:41:13,923 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickRightHambMenu start
+2022-10-26 13:41:14,373 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
+2022-10-26 13:41:14,373 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:41:14,373 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1 - Contains WEBVIEW: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:41:20,778 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickRightHambMenu succeed
+2022-10-26 13:41:20,781 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method openLeftMenu start
+2022-10-26 13:41:21,159 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
+2022-10-26 13:41:21,159 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 2: NATIVE_APP
+2022-10-26 13:41:21,356 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:41:23,198 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method openLeftMenu succeed
+2022-10-26 13:41:23,201 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickOnChart start
+2022-10-26 13:41:24,570 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickOnChart succeed
+2022-10-26 13:41:24,573 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method showChartsPage start
+2022-10-26 13:41:29,589 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method showChartsPage succeed
+2022-10-26 13:41:29,590 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickLeftMenu start
+2022-10-26 13:41:29,953 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
+2022-10-26 13:41:29,953 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 2: NATIVE_APP
+2022-10-26 13:41:29,965 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
+2022-10-26 13:41:30,472 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method clickLeftMenu succeed
+2022-10-26 13:41:30,478 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method goToUIElements start
+2022-10-26 13:41:31,691 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method goToUIElements succeed
+2022-10-26 13:41:31,692 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method insertDatainUIElements start
+2022-10-26 13:41:34,385 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ----- Method insertDatainUIElements succeed
+2022-10-26 13:41:35,636 INFO c.c.l.Log [main]  onFinish - method Smoke Tests for Carina Mobile

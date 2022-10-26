@@ -12,6 +12,8 @@
             </class>
             <class name="com.carina.tests.ChartsPageTest">
             </class>
+            <class name="com.carina.tests.UIElementsPageTest">
+            </class>
         </classes>
     </test>
 </suite>

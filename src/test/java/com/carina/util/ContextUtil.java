@@ -1,7 +1,7 @@
 package com.carina.util;
 
 public enum ContextUtil {
-    NATIVE("NATIVE_APP"), WEB("WEBVIEW_com.solvd.carinademoapplication");
+    NATIVE("NATIVE_APP"), WEB("WEBVIEW_");
 
    private final String context;
 

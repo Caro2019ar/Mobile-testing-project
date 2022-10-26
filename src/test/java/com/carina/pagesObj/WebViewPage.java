@@ -13,9 +13,8 @@ public class WebViewPage extends WebViewPageBase {
         super(appiumDriver);
     }
 
-    @FindBy(xpath = "//*[@id=\"rec42972268\"]/div[2]/div/div[2]")
+    @FindBy(xpath = "//*[@id=\"rec42972268\"]")
     WebElement burgerWeb;
-    // classname= t228_burger
     public void clickRightMenuWeb() {
         clickWeb(burgerWeb);
     }

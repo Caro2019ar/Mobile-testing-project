@@ -48,4 +48,9 @@ public class UIElementsPage extends WebViewPageBase {
     @AndroidFindBy(id = "switch1")
     MobileElement enableBtn;
 
+
+    public void enterName(String nameTxt) {
+        clear(editText);
+        sendText(editText, nameTxt);
+    }
 }

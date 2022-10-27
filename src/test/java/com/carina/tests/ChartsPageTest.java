@@ -34,7 +34,7 @@ public class ChartsPageTest extends TestBase {
     @Step("showChartsPage")
     public void showChartsPage() throws InterruptedException {
         Thread.sleep(5000);
-
+        AllureListener.takeScreenShot(driver);
     }
 
     @Test(dependsOnMethods = "showChartsPage")

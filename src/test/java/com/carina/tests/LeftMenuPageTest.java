@@ -18,14 +18,15 @@ public class LeftMenuPageTest extends TestBase {
     private LeftMenuPage leftMenuPage;
 
     @BeforeClass
-    public void setUpLeftMenu(){
+    public void setUpLeftMenu() {
         leftMenuPage = new LeftMenuPage(driver);
     }
 
     @Test
     @Description("clickOnChart")
     @Step("clickOnChart")
-    public void clickOnChart(){
+    public void clickOnChart() {
+        AllureListener.takeScreenShot(driver);
         leftMenuPage.clickCharts();
     }
 

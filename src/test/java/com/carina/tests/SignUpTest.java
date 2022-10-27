@@ -65,6 +65,7 @@ public class SignUpTest extends TestBase {
     @Step("signUpSuccessfully")
     public void signUpSuccessfully() {
         webViewPageBase.waitToolbar();
+        AllureListener.takeScreenShot(driver);
         Assert.assertTrue(driver.findElement(By.id("toolbar")).isDisplayed());
     }
 

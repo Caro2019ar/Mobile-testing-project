@@ -65,7 +65,7 @@
                             <parallel>methods</parallel>
                             <threadCount>${threads}</threadCount>
                             <suiteXmlFiles>
-                                <suiteXmlFile>androidtestng.xml</suiteXmlFile>
+                                <file>src/test/resources/smoke-suite.xml</file>
                             </suiteXmlFiles>
                             <testFailureIgnore>false</testFailureIgnore>
                             <argLine>
@@ -74,7 +74,8 @@
                             <properties>
                                 <property>
                                     <name>listener</name>
-                                    <value>io.qameta.allure.junit4.AllureJunit4</value>
+                                    <!--                                    <value>io.qameta.allure.junit4.AllureJunit4</value>-->
+                                    <value>com.carina.allureReport.AllureListener</value>
                                 </property>
                             </properties>
                         </configuration>

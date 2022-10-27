@@ -37,5 +37,6 @@ public class UIElementsPageTest extends TestBase {
     @Step("Insert info on first text field")
     public void insertDatainUIElements() throws InterruptedException {
         uiElementsPage.enterName("John Darth");
+        AllureListener.takeScreenShot(driver);
     }
 }

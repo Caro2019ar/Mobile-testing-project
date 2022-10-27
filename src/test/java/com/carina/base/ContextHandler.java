@@ -14,9 +14,11 @@ public class ContextHandler {
             if (context.contains("WEBVIEW") && contextName.contains("WEB")) {
                 Log.info("Context 1 - Contains WEBVIEW: " + context);
                 driver.context(context);
+                break;
             } else if (context.contains("NATIVE") && contextName.contains("NATIVE")) {
                 Log.info("Context 2: " + context);
                 driver.context(context);
+                break;
             }
 
         }

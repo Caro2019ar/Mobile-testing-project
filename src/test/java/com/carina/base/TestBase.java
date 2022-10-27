@@ -9,6 +9,7 @@ import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 
@@ -22,15 +23,16 @@ public class TestBase {
         DesiredCapabilities caps = desiredCapabilitiesUtil.getDesiredCapabilities();
         try {
             driver = new AndroidDriver<>(new URL(prop.readProperty("androiddriver.url")), caps);
+            DriverThread.setTLDriver(driver);
         } catch (MalformedURLException e) {
-            Log.error("Could not form URL for Android Driver "+e.getMessage());
+            Log.error("Could not form URL for Android Driver " + e.getMessage());
         }
-        DriverThread.setTLDriver(driver);
     }
 
     @AfterTest
     public synchronized void teardown() {
-        DriverThread.getTLDriver().quit();
+        if (driver != null)
+            driver.quit();
     }
 
 }

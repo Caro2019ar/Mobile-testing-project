@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <suite name="Smoke Suite Carina Mobile" parallel="methods" thread-count="5">
+    <listeners>
+        <listener class-name="com.carina.allureReport.AllureListener"/>
+    </listeners>
     <test name="Smoke Tests for Carina Mobile">
         <classes>
             <class name="com.carina.tests.InitialPageTest">

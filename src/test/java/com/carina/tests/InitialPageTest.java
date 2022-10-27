@@ -34,7 +34,7 @@ public class InitialPageTest extends TestBase {
     @Step("Initiate page and click on NEXT")
     public void clickOnNext() {
         initialPage.clickNextBtn();
-        AllureListener.takeScreenShot(driver);
+
     }
 
     @Test(dependsOnMethods = "clickOnNext")
@@ -42,6 +42,7 @@ public class InitialPageTest extends TestBase {
     @Step("goToSignupPageSuccessfully")
     public void goToSignupPageSuccessfully() {
         signUpPage.waitLoginForm();
+        AllureListener.takeScreenShot(driver);
         Assert.assertTrue(driver.findElement(By.id("loginForm")).isDisplayed());
     }
 

@@ -31,7 +31,8 @@ public class WebViewTest extends TestBase {
     }
 
 
-   @Test(groups = {"webview_rightMenu"}, dependsOnGroups = "signup")
+    //   @Test(groups = {"webview_rightMenu"}, dependsOnGroups = "signup")
+    @Test
     @Description("Webview right menu")
     @Story("Story: user can open right menu")
     @Step("Click on right menu of WebView")

@@ -1,9 +1,14 @@
 package com.carina.pagesObj;
 
+
 import com.carina.base.WebViewPageBase;
+import com.carina.logs.Log;
+import com.carina.util.GenderUtil;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
+
+
 
 public class UIElementsPage extends WebViewPageBase {
 
@@ -31,11 +36,11 @@ public class UIElementsPage extends WebViewPageBase {
     @AndroidFindBy(id = "checkBox2")
     MobileElement copyCheck;
 
-    @AndroidFindBy(id = "radioBUtton")
+    @AndroidFindBy(id = "radioButton")
     MobileElement maleRadio;
-    @AndroidFindBy(id = "radioBUtton3")
+    @AndroidFindBy(id = "radioButton3")
     MobileElement femaleRadio;
-    @AndroidFindBy(id = "radioBUtton5")
+    @AndroidFindBy(id = "radioButton5")
     MobileElement otherRadio;
 
     @AndroidFindBy(id = "progressBar")
@@ -43,7 +48,7 @@ public class UIElementsPage extends WebViewPageBase {
     @AndroidFindBy(id = "progressBar2")
     MobileElement lineBar;
     @AndroidFindBy(id = "seekBar")
-    MobileElement pointBar;
+    MobileElement pointSeekBar;
 
     @AndroidFindBy(id = "switch1")
     MobileElement enableBtn;
@@ -53,4 +58,48 @@ public class UIElementsPage extends WebViewPageBase {
         clear(editText);
         sendText(editText, nameTxt);
     }
+
+    public void enterEMail(String emailTxt) {
+        clear(email);
+        sendText(email, emailTxt);
+    }
+
+    public void enterDate(String dateTxt) {
+        clear(date);
+        sendText(date, dateTxt);
+    }
+
+    public void checkCopy(Boolean checkOrNot) {
+        if (checkOrNot) {
+            click(copyCheck);
+        }
+    }
+
+    public void selectGender(String gender) {
+        if (gender.equals(GenderUtil.MALE.getGender())) {
+            click(maleRadio);
+        } else if (gender.equals(GenderUtil.FEMALE.getGender())) {
+            click(femaleRadio);
+        } else if (gender.equals(GenderUtil.OTHER.getGender())) {
+            click(otherRadio);
+        } else {
+            Log.error("Gender not found.");
+            //throw new Exception;
+        }
+
+    }
+
+    public void clickProgressBar() {
+        click(lineBar);
+    }
+
+    public void clickSeekBar() {
+        click(pointSeekBar);
+    }
+
+    public void clickEnable() {
+        click(enableBtn);
+    }
+
+
 }

@@ -1,31 +1,14 @@
-2022-10-27 19:26:00,175 INFO c.c.l.Log [main] ====== Method clickOnAgree succeed
-2022-10-27 19:26:00,181 INFO c.c.l.Log [main] onTestStart - method clickOnSignup start
-2022-10-27 19:26:00,798 INFO c.c.l.Log [main] ====== Method clickOnSignup succeed
-2022-10-27 19:26:00,800 INFO c.c.l.Log [main] onTestStart - method signUpSuccessfully start
-2022-10-27 19:26:07,369 INFO c.c.l.Log [main] ====== Method signUpSuccessfully succeed
-2022-10-27 19:26:07,380 INFO c.c.l.Log [main] onTestStart - method clickRightHambMenu start
-2022-10-27 19:26:07,706 INFO c.c.l.Log [main] Context 1: NATIVE_APP
-2022-10-27 19:26:07,706 INFO c.c.l.Log [main] Context 1: WEBVIEW_com.solvd.carinademoapplication
-2022-10-27 19:26:07,706 INFO c.c.l.Log [main] Context 1 - Contains WEBVIEW: WEBVIEW_com.solvd.carinademoapplication
-2022-10-27 19:26:14,026 INFO c.c.l.Log [main] ====== Method clickRightHambMenu succeed
-2022-10-27 19:26:14,027 INFO c.c.l.Log [main] onTestStart - method openLeftMenu start
-2022-10-27 19:26:14,432 INFO c.c.l.Log [main] Context 1: NATIVE_APP
-2022-10-27 19:26:14,433 INFO c.c.l.Log [main] Context 2: NATIVE_APP
-2022-10-27 19:26:17,245 INFO c.c.l.Log [main] ====== Method openLeftMenu succeed
-2022-10-27 19:26:17,247 INFO c.c.l.Log [main] onTestStart - method clickOnChart start
-2022-10-27 19:26:18,263 INFO c.c.l.Log [main] ====== Method clickOnChart succeed
-2022-10-27 19:26:18,266 INFO c.c.l.Log [main] onTestStart - method showChartsPage start
-2022-10-27 19:26:23,693 INFO c.c.l.Log [main] ====== Method showChartsPage succeed
-2022-10-27 19:26:23,694 INFO c.c.l.Log [main] onTestStart - method clickLeftMenu start
-2022-10-27 19:26:23,981 INFO c.c.l.Log [main] Context 1: NATIVE_APP
-2022-10-27 19:26:23,981 INFO c.c.l.Log [main] Context 2: NATIVE_APP
-2022-10-27 19:26:24,113 INFO c.c.l.Log [main] ====== Method clickLeftMenu succeed
-2022-10-27 19:26:24,115 INFO c.c.l.Log [main] onTestStart - method goToUIElements start
-2022-10-27 19:26:25,537 INFO c.c.l.Log [main] ====== Method goToUIElements succeed
-2022-10-27 19:26:25,538 INFO c.c.l.Log [main] onTestStart - method insertDataInUIElements start
-2022-10-27 19:26:36,750 INFO c.c.l.Log [main] ====== Method insertDataInUIElements succeed
-2022-10-27 19:26:36,752 INFO c.c.l.Log [main] onTestStart - method clickProgressBars start
-2022-10-27 19:26:37,529 INFO c.c.l.Log [main] ====== Method clickProgressBars succeed
-2022-10-27 19:26:37,530 INFO c.c.l.Log [main] onTestStart - method enableClick start
-2022-10-27 19:26:38,195 INFO c.c.l.Log [main] ====== Method enableClick succeed
-2022-10-27 19:26:39,261 INFO c.c.l.Log [main]  onFinish - method Command line test
+2022-10-27 22:38:02,002 INFO c.c.l.Log [main] ====== Method showChartsPage succeed
+2022-10-27 22:38:02,005 INFO c.c.l.Log [main] onTestStart - method clickLeftMenu start
+2022-10-27 22:38:02,204 INFO c.c.l.Log [main] Context 1: NATIVE_APP
+2022-10-27 22:38:02,204 INFO c.c.l.Log [main] Context 2: NATIVE_APP
+2022-10-27 22:38:02,329 INFO c.c.l.Log [main] ====== Method clickLeftMenu succeed
+2022-10-27 22:38:02,331 INFO c.c.l.Log [main] onTestStart - method goToUIElements start
+2022-10-27 22:38:03,640 INFO c.c.l.Log [main] ====== Method goToUIElements succeed
+2022-10-27 22:38:03,641 INFO c.c.l.Log [main] onTestStart - method insertDataInUIElements start
+2022-10-27 22:38:14,187 INFO c.c.l.Log [main] ====== Method insertDataInUIElements succeed
+2022-10-27 22:38:14,189 INFO c.c.l.Log [main] onTestStart - method clickProgressBars start
+2022-10-27 22:38:14,996 INFO c.c.l.Log [main] ====== Method clickProgressBars succeed
+2022-10-27 22:38:14,997 INFO c.c.l.Log [main] onTestStart - method enableClick start
+2022-10-27 22:38:15,659 INFO c.c.l.Log [main] ====== Method enableClick succeed
+2022-10-27 22:38:16,867 INFO c.c.l.Log [main]  onFinish - method Command line test

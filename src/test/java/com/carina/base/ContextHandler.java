@@ -1,6 +1,6 @@
 package com.carina.base;
 
-import com.carina.logs.Log;
+import com.carina.log.Log;
 import io.appium.java_client.AppiumDriver;
 
 import java.util.Set;

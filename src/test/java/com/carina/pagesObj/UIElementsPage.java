@@ -2,7 +2,7 @@ package com.carina.pagesObj;
 
 
 import com.carina.base.WebViewPageBase;
-import com.carina.logs.Log;
+import com.carina.log.Log;
 import com.carina.util.GenderUtil;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.MobileElement;

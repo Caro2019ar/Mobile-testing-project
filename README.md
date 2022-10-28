@@ -7,7 +7,7 @@ Mobile testing of Carinademoexample.apk
 - Allure report
 - Log4J
 
-##Commands to run project
+## Commands to run project
 - mvn clean install
 - allure serve allure-results
 

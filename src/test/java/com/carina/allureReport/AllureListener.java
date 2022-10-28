@@ -34,9 +34,7 @@ public class AllureListener implements ITestListener {
     @Override
     public void onStart(ITestContext iTestContext) {
         Log.info("-----onStart method " + iTestContext.getName() + " "+ iTestContext.getAttribute("WebDriver"));
-       // iTestContext.setAttribute("AppiumDriver", TestBase.getDriver());
-       // Log.info("-----TestBase.getDriver() " +TestBase.getDriver());
-//        iTestContext.setAttribute("WebDriver", DriverThread.getTLDriver());
+
     }
 
     @Override
@@ -51,28 +49,15 @@ public class AllureListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
-       // Log.info("==========TestBase.getDriver()"+TestBase.getDriver());//nao sai essa linha no log
-        //Allure.addAttachment("ScreenShot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
-        //Allure.addAttachment("screenShot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
         Log.info("====== Method " + getTestMethodName(iTestResult) + " succeed");
-        //checkDriverAndtakeScreenShot(iTestResult);
     }
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
         Log.info("-----onTestFailure - method " + getTestMethodName(iTestResult) + " failed");
-        //checkDriverAndtakeScreenShot(iTestResult);
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
     }
 
-    private void checkDriverAndtakeScreenShot(ITestResult iTestResult) {
-        AppiumDriver driver = DriverThread.getTLDriver();
-        Object testClass = iTestResult.getInstance();
-        if (driver != null) {
-            Log.info("Screenshot captured for test case:" + getTestMethodName(iTestResult));
-            takeScreenShot(driver);
-        }
-    }
 
 
 }

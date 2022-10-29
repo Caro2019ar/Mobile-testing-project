@@ -8,6 +8,7 @@
     <artifactId>mobile-testing</artifactId>
     <version>1.0-SNAPSHOT</version>
     <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>11</java.version>
         <aspectj.version>1.8.10</aspectj.version>
         <threads>5</threads>
@@ -52,10 +53,10 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-compiler-plugin</artifactId>
                     <version>3.10.1</version>
-                    <configuration>
+                    <!--<configuration>
                         <source>${java.version}</source>
                         <target>${java.version}</target>
-                    </configuration>
+                    </configuration>-->
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>

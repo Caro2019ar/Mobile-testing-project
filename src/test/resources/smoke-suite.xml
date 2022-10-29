@@ -4,6 +4,18 @@
         <listener class-name="com.carina.allureReport.AllureListener"/>
     </listeners>
     <test name="Smoke Tests for Carina Mobile">
+        <groups>
+            <define name="smoke">
+                <run>
+                    <include name="initialize"/>
+                    <include name="signup"/>
+                    <include name="webview"/>
+                    <include name="leftMenu"/>
+                    <include name="chartspage"/>
+                    <include name="uiElements"/>
+                </run>
+            </define>
+        </groups>
         <classes>
             <class name="com.carina.tests.InitialPageTest">
             </class>

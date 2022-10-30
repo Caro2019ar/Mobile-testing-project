@@ -13,13 +13,16 @@ public class WebViewPage extends WebViewPageBase {
         super(appiumDriver);
     }
 
+    // @FindBy(xpath="/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.support.v4.widget.DrawerLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.LinearLayout/android.webkit.WebView/android.webkit.WebView/android.view.View[1]/android.view.View[1]/android.view.View/android.view.View[2]/android.view.View/android.view.View[2]")
     @FindBy(xpath = "//*[@id=\"rec42972268\"]")
     WebElement burgerWeb;
+
     public void clickRightMenuWeb() {
         clickWeb(burgerWeb);
     }
 
 
+//*[@id="screenshotContainer"]/div[2]/div/div/div/div/div[40]/div
     //readongithub
     // xpath = //*[@id="nav40073764"]/div/div[3]/div/ul/li[1]/a
 }

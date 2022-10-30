@@ -9,7 +9,6 @@ import io.appium.java_client.MobileElement;
 import io.appium.java_client.pagefactory.AndroidFindBy;
 
 
-
 public class UIElementsPage extends WebViewPageBase {
 
 
@@ -101,5 +100,8 @@ public class UIElementsPage extends WebViewPageBase {
         click(enableBtn);
     }
 
+    public String checkCopyTrueOrFalse() {
+        return copyCheck.getAttribute("checked");
+    }
 
 }

@@ -32,16 +32,17 @@ public class WebViewTest extends TestBase {
 
 
     //   @Test(groups = {"webview_rightMenu"}, dependsOnGroups = "signup")
-    @Test
+    /*@Test
     @Description("Webview right menu")
     @Story("Story: user can open right menu")
     @Step("Click on right menu of WebView")
     public void clickRightHambMenu() {
-        ContextHandler.changeContext(driver, ContextUtil.WEB.getContext());
+       ContextHandler.changeContext(driver, ContextUtil.WEB.getContext());
         webViewPage.clickRightMenuWeb();
-    }
+    }*/
 
-    @Test(dependsOnMethods = "clickRightHambMenu")
+    //@Test(dependsOnMethods = "clickRightHambMenu")
+    @Test
     @Description("openLeftMenu")
     @Step("openLeftMenu")
     public void openLeftMenu() {

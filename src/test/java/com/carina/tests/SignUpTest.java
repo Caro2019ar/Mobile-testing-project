@@ -27,7 +27,9 @@ public class SignUpTest extends TestBase {
     public void setUpSignUp() {
         signUpPage = new SignUpPage(driver);
         webViewPageBase = new WebViewPageBase(driver);
+
     }
+
 
     @Test(dataProviderClass = SignUpDP.class, dataProvider = "signUpData")
     @Description("Signup")
@@ -65,7 +67,6 @@ public class SignUpTest extends TestBase {
     @Step("signUpSuccessfully")
     public void signUpSuccessfully() {
         webViewPageBase.waitToolbar();
-        AllureListener.takeScreenShot(driver);
         Assert.assertTrue(driver.findElement(By.id("toolbar")).isDisplayed());
     }
 

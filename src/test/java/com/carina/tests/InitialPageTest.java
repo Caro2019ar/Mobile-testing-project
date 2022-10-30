@@ -42,7 +42,6 @@ public class InitialPageTest extends TestBase {
     @Step("goToSignupPageSuccessfully")
     public void goToSignupPageSuccessfully() {
         signUpPage.waitLoginForm();
-        AllureListener.takeScreenShot(driver);
         Assert.assertTrue(driver.findElement(By.id("loginForm")).isDisplayed());
     }
 

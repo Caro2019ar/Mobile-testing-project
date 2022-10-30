@@ -1,6 +1,6 @@
-2022-10-29 14:01:03,679 INFO c.c.l.Log [main] ====== Method insertDataInUIElements succeed
-2022-10-29 14:01:03,687 INFO c.c.l.Log [main] onTestStart - method clickProgressBars start
-2022-10-29 14:01:04,429 INFO c.c.l.Log [main] ====== Method clickProgressBars succeed
-2022-10-29 14:01:04,431 INFO c.c.l.Log [main] onTestStart - method enableClick start
-2022-10-29 14:01:04,944 INFO c.c.l.Log [main] ====== Method enableClick succeed
-2022-10-29 14:01:05,650 INFO c.c.l.Log [main]  onFinish - method Command line test
+2022-10-30 15:54:02,498 INFO c.c.l.Log [TestNG-tests-1] ====== Method insertDataInUIElements succeed
+2022-10-30 15:54:02,504 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method clickProgressBars start
+2022-10-30 15:54:03,277 INFO c.c.l.Log [TestNG-tests-1] ====== Method clickProgressBars succeed
+2022-10-30 15:54:03,278 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method enableClick start
+2022-10-30 15:54:04,076 INFO c.c.l.Log [TestNG-tests-1] ====== Method enableClick succeed
+2022-10-30 15:54:04,744 INFO c.c.l.Log [TestNG-tests-1]  onFinish - method Smoke Tests for Carina Mobile

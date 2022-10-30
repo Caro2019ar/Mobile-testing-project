@@ -31,8 +31,10 @@ public class TestBase {
 
     @AfterTest
     public synchronized void teardown() {
-        if (driver != null)
+        if (driver != null) {
             driver.quit();
+        }
     }
+
 
 }

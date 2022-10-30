@@ -1,17 +1,21 @@
 package com.carina.allureReport;
 
-import com.carina.base.DriverThread;
+import com.carina.base.TestBase;
 import com.carina.log.Log;
 import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.IOException;
 
 public class AllureListener implements ITestListener {
 
@@ -21,8 +25,18 @@ public class AllureListener implements ITestListener {
     }
 
 
-    public static void takeScreenShot(AppiumDriver driver) {
+    public static void takeScreenShotAllure(WebDriver driver) {
         Allure.addAttachment("ScreenShot", new ByteArrayInputStream(((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES)));
+    }
+
+    public static void takeScreenshotToFile(ITestResult iTestResult) {
+        WebDriver driver = TestBase.driver;
+        try {
+            File imageTest = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+            FileUtils.copyFile(imageTest, new File("target/screenshots/" + iTestResult.getMethod().getMethodName() + ".png"));
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 
     @Attachment(value = "{0}", type = "text/plain")
@@ -33,7 +47,7 @@ public class AllureListener implements ITestListener {
 
     @Override
     public void onStart(ITestContext iTestContext) {
-        Log.info("-----onStart method " + iTestContext.getName() + " "+ iTestContext.getAttribute("WebDriver"));
+        Log.info("-----onStart method " + iTestContext.getName() + " " + iTestContext.getAttribute("WebDriver"));
 
     }
 
@@ -49,6 +63,7 @@ public class AllureListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
+        takeScreenshotToFile(iTestResult);
         Log.info("====== Method " + getTestMethodName(iTestResult) + " succeed");
     }
 
@@ -57,7 +72,6 @@ public class AllureListener implements ITestListener {
         Log.info("-----onTestFailure - method " + getTestMethodName(iTestResult) + " failed");
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
     }
-
 
 
 }

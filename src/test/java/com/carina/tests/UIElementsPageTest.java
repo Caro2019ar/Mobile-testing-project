@@ -5,8 +5,6 @@ import com.carina.base.TestBase;
 import com.carina.dataproviders.UIElementsDP;
 import com.carina.pagesObj.LeftMenuPage;
 import com.carina.pagesObj.UIElementsPage;
-import com.carina.pagesObj.WebViewPage;
-import com.carina.util.GenderUtil;
 import io.appium.java_client.android.AndroidTouchAction;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
@@ -40,6 +38,11 @@ public class UIElementsPageTest extends TestBase {
         leftMenuPage.clickUIElements();
     }
 
+/*    @Test
+    public String checkCopy() {
+        Log.info("CopyBtb-----" + uiElementsPage.checkCopyTrueOrFalse());
+        return uiElementsPage.checkCopyTrueOrFalse();
+    }*/
 
     @Test(dependsOnMethods = "goToUIElements", dataProviderClass = UIElementsDP.class, dataProvider = "uiElementsDP")
     @Description("Insert data")
@@ -67,7 +70,7 @@ public class UIElementsPageTest extends TestBase {
     @Step("enableClick")
     public void enableClick() {
         uiElementsPage.clickEnable();
-        AllureListener.takeScreenShot(driver);
+//        AllureListener.takeScreenShotAllure(driver);
     }
 
     private void scrollDown() {

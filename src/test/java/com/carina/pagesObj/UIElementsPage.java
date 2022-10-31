@@ -1,6 +1,7 @@
 package com.carina.pagesObj;
 
 
+import com.carina.util.ScrollDownUtil;
 import com.carina.base.WebViewPageBase;
 import com.carina.log.Log;
 import com.carina.util.GenderUtil;
@@ -102,6 +103,10 @@ public class UIElementsPage extends WebViewPageBase {
 
     public String checkCopyTrueOrFalse() {
         return copyCheck.getAttribute("checked");
+    }
+
+    public void scrollDown(AppiumDriver driver, double start, double end) {
+        ScrollDownUtil.scrollDown(driver, start, end);
     }
 
 }

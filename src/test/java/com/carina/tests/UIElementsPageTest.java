@@ -7,16 +7,10 @@ import com.carina.dataproviders.UIElementsDP;
 import com.carina.pagesObj.LeftMenuPage;
 import com.carina.pagesObj.UIElementsPage;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidTouchAction;
-import io.appium.java_client.touch.WaitOptions;
-import io.appium.java_client.touch.offset.PointOption;
 import io.qameta.allure.*;
-import org.openqa.selenium.Dimension;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
-
-import java.time.Duration;
 
 
 @Test(groups = {"uiElements"}, dependsOnGroups = "chartspage")
@@ -57,7 +51,7 @@ public class UIElementsPageTest extends TestBase {
         uiElementsPage.enterEMail(email);
         uiElementsPage.enterDate(date);
         uiElementsPage.checkCopy(copyCheck);
-        scrollDown();
+        uiElementsPage.scrollDown(driver, 0.8, 0.1);
         uiElementsPage.selectGender(genderUtil);
 
     }
@@ -77,14 +71,5 @@ public class UIElementsPageTest extends TestBase {
         AllureListener.takeScreenShotAllure(driver);
     }
 
-    private void scrollDown() {
-        Dimension dimension = driver.manage().window().getSize();
-        int scrollStart = (int) (dimension.getHeight() * 0.8);
-        int scrollEnd = (int) (dimension.getHeight() * 0.1);
-        AndroidTouchAction actions = new AndroidTouchAction(driver)
-                .press(PointOption.point(0, scrollStart))
-                .waitAction(WaitOptions.waitOptions(Duration.ofSeconds(3)))
-                .moveTo(PointOption.point(0, scrollEnd)).release().perform();
-    }
 
 }

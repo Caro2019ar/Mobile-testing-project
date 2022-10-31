@@ -6,11 +6,12 @@ import com.carina.base.TestBase;
 import com.carina.pagesObj.InitialPage;
 import com.carina.pagesObj.SignUpPage;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
-import org.testng.annotations.*;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Listeners;
+import org.testng.annotations.Test;
 
 @Test(groups = {"initialize"})
 @Listeners({AllureListener.class})
@@ -35,6 +36,7 @@ public class InitialPageTest extends TestBase {
     @Story("Story: Can initiate app")
     @Step("Initiate page and click on NEXT")
     public void clickOnNext() {
+
         initialPage.clickNextBtn();
     }
 
@@ -46,7 +48,6 @@ public class InitialPageTest extends TestBase {
         AllureListener.takeScreenShotAllure(driver);
         Assert.assertTrue(driver.findElement(By.id("loginForm")).isDisplayed());
     }
-
 
 
 }

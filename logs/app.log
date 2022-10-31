@@ -1,22 +1,14 @@
-2022-10-31 16:17:01,396 INFO c.c.l.Log [TestNG-tests-1] Context 1: NATIVE_APP
-2022-10-31 16:17:01,435 INFO c.c.l.Log [TestNG-tests-1] Context 2: NATIVE_APP
-2022-10-31 16:17:02,000 INFO c.c.l.Log [TestNG-tests-1] ====== Method clickRightHambMenu succeed
-2022-10-31 16:17:02,001 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method openLeftMenu start
-2022-10-31 16:17:05,799 INFO c.c.l.Log [TestNG-tests-1] ====== Method openLeftMenu succeed
-2022-10-31 16:17:05,804 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method clickOnChart start
-2022-10-31 16:17:07,067 INFO c.c.l.Log [TestNG-tests-1] ====== Method clickOnChart succeed
-2022-10-31 16:17:07,073 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method showChartsPage start
-2022-10-31 16:17:12,552 INFO c.c.l.Log [TestNG-tests-1] ====== Method showChartsPage succeed
-2022-10-31 16:17:12,556 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method clickLeftMenu start
-2022-10-31 16:17:12,866 INFO c.c.l.Log [TestNG-tests-1] Context 1: NATIVE_APP
-2022-10-31 16:17:12,867 INFO c.c.l.Log [TestNG-tests-1] Context 2: NATIVE_APP
-2022-10-31 16:17:13,091 INFO c.c.l.Log [TestNG-tests-1] ====== Method clickLeftMenu succeed
-2022-10-31 16:17:13,095 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method goToUIElements start
-2022-10-31 16:17:15,446 INFO c.c.l.Log [TestNG-tests-1] ====== Method goToUIElements succeed
-2022-10-31 16:17:15,457 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method insertDataInUIElements start
-2022-10-31 16:17:27,400 INFO c.c.l.Log [TestNG-tests-1] ====== Method insertDataInUIElements succeed
-2022-10-31 16:17:27,402 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method clickProgressBars start
-2022-10-31 16:17:28,230 INFO c.c.l.Log [TestNG-tests-1] ====== Method clickProgressBars succeed
-2022-10-31 16:17:28,232 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method enableClick start
-2022-10-31 16:17:29,825 INFO c.c.l.Log [TestNG-tests-1] ====== Method enableClick succeed
-2022-10-31 16:17:33,729 INFO c.c.l.Log [TestNG-tests-1]  onFinish - method Smoke Tests for Carina Mobile
+2022-10-31 19:11:05,430 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method showChartsPageAndBananas succeed
+2022-10-31 19:11:05,443 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickLeftMenu start
+2022-10-31 19:11:16,548 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
+2022-10-31 19:11:16,549 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 2: NATIVE_APP
+2022-10-31 19:11:16,697 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method clickLeftMenu succeed
+2022-10-31 19:11:16,700 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method goToUIElements start
+2022-10-31 19:11:18,047 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method goToUIElements succeed
+2022-10-31 19:11:18,049 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method insertDataInUIElements start
+2022-10-31 19:11:28,026 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method insertDataInUIElements succeed
+2022-10-31 19:11:28,028 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickProgressBars start
+2022-10-31 19:11:28,817 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method clickProgressBars succeed
+2022-10-31 19:11:28,825 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method enableClick start
+2022-10-31 19:11:29,389 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method enableClick succeed
+2022-10-31 19:11:30,854 INFO c.c.l.Log [main]  onFinish - method Smoke Tests for Carina Mobile

@@ -5,7 +5,8 @@ import io.appium.java_client.MobileElement;
 
 public class DriverThread {
 
-    private static final ThreadLocal<AppiumDriver<MobileElement>> tlDriver = new ThreadLocal<>();
+
+    /*private static final ThreadLocal<AppiumDriver<MobileElement>> tlDriver = new ThreadLocal<>();
 
     public static synchronized void setTLDriver(AppiumDriver<MobileElement> driver) {
         tlDriver.set(driver);
@@ -13,5 +14,5 @@ public class DriverThread {
 
     public static synchronized AppiumDriver<MobileElement> getTLDriver() {
         return tlDriver.get();
-    }
+    }*/
 }

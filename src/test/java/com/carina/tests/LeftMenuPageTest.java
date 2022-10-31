@@ -29,7 +29,7 @@ public class LeftMenuPageTest extends TestBase {
     @Description("clickOnChart")
     @Step("clickOnChart")
     public void clickOnChart() {
-       AllureListener.takeScreenShotAllure(driver);
+      // AllureListener.takeScreenShotAllure(driver);
         leftMenuPage.clickCharts();
     }
 

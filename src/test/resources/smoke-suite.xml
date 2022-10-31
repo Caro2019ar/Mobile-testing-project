@@ -22,6 +22,9 @@
             <class name="com.carina.tests.SignUpTest">
             </class>
             <class name="com.carina.tests.WebViewTest">
+        <!--        <methods>
+                    <exclude name="clickRightHambMenu"/>
+                </methods>-->
             </class>
             <class name="com.carina.tests.LeftMenuPageTest">
             </class>

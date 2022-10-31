@@ -1,7 +1,9 @@
 package com.carina.allureReport;
 
+import com.carina.base.DriverFactory;
 import com.carina.base.TestBase;
 import com.carina.log.Log;
+import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
@@ -11,6 +13,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
+import org.testng.TestListenerAdapter;
 
 import java.io.ByteArrayInputStream;
 import java.io.File;
@@ -20,7 +23,8 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 
-public class AllureListener implements ITestListener {
+//public class AllureListener implements ITestListener {
+public class AllureListener extends TestListenerAdapter {
 
 
     private static String getTestMethodName(ITestResult iTestResult) {
@@ -36,13 +40,13 @@ public class AllureListener implements ITestListener {
 
 
     public static void takeScreenshotToFile(ITestResult iTestResult) {
-        WebDriver driver = (WebDriver) TestBase.driver;
+        WebDriver driver= DriverFactory.getDriver();
         try {
             File imageTest = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
             FileUtils.copyFile(imageTest, new File("target/screenshots/" + iTestResult.getMethod().getMethodName() + ".png"));
             Path content = Paths.get("target/screenshots/" + iTestResult.getMethod().getMethodName() + ".png");
             InputStream inputStream = Files.newInputStream(content);
-           // Allure.addAttachment("ScreenShot", inputStream);
+            Allure.addAttachment("ScreenShot", inputStream);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }
@@ -77,6 +81,7 @@ public class AllureListener implements ITestListener {
 
     @Override
     public void onTestSuccess(ITestResult iTestResult) {
+        //takeScreenshotToFile(iTestResult);
         Log.info("====== Method " + getTestMethodName(iTestResult) + " succeed");
     }
 

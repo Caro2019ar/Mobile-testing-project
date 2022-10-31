@@ -2,10 +2,12 @@ package com.carina.tests;
 
 import com.carina.allureReport.AllureListener;
 import com.carina.base.ContextHandler;
+import com.carina.base.DriverFactory;
 import com.carina.base.TestBase;
 import com.carina.pagesObj.ChartsPage;
 import com.carina.pagesObj.WebViewPage;
 import com.carina.util.ContextUtil;
+import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.*;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
@@ -18,12 +20,13 @@ import org.testng.annotations.Test;
 @Feature("Feature: Charts Page")
 @Severity(SeverityLevel.CRITICAL)
 public class ChartsPageTest extends TestBase {
-
+    private AppiumDriver driver;
     private ChartsPage chartsPage;
     private WebViewPage webViewPage;
 
     @BeforeClass
     public void setUpWebView() {
+        driver = DriverFactory.getDriver();
         webViewPage = new WebViewPage(driver);
         chartsPage = new ChartsPage(driver);
     }

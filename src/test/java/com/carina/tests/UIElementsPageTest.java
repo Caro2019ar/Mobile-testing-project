@@ -1,10 +1,12 @@
 package com.carina.tests;
 
 import com.carina.allureReport.AllureListener;
+import com.carina.base.DriverFactory;
 import com.carina.base.TestBase;
 import com.carina.dataproviders.UIElementsDP;
 import com.carina.pagesObj.LeftMenuPage;
 import com.carina.pagesObj.UIElementsPage;
+import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.android.AndroidTouchAction;
 import io.appium.java_client.touch.WaitOptions;
 import io.appium.java_client.touch.offset.PointOption;
@@ -23,11 +25,13 @@ import java.time.Duration;
 @Feature("Feature: UI Elements")
 @Severity(SeverityLevel.CRITICAL)
 public class UIElementsPageTest extends TestBase {
+    private AppiumDriver driver;
     private LeftMenuPage leftMenuPage;
     private UIElementsPage uiElementsPage;
 
     @BeforeClass
     public void setUpWebView() {
+        driver = DriverFactory.getDriver();
         leftMenuPage = new LeftMenuPage(driver);
     }
 

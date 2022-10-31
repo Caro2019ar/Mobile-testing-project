@@ -13,7 +13,7 @@ public class PageBase {
 
     public PageBase(AppiumDriver appiumDriver) {
         PageFactory.initElements(new AppiumFieldDecorator(appiumDriver), this);
-        driver = appiumDriver;
+        driver = DriverFactory.getDriver();
     }
 
     public void waitForVisibility(MobileElement element) {

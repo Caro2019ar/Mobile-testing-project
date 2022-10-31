@@ -2,10 +2,12 @@ package com.carina.tests;
 
 
 import com.carina.allureReport.AllureListener;
+import com.carina.base.DriverFactory;
 import com.carina.base.TestBase;
 import com.carina.base.WebViewPageBase;
 import com.carina.dataproviders.SignUpDP;
 import com.carina.pagesObj.SignUpPage;
+import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
 import org.testng.Assert;
@@ -19,12 +21,13 @@ import org.testng.annotations.Test;
 @Severity(SeverityLevel.BLOCKER)
 @Test(groups = {"signup"}, dependsOnGroups = "initialize")
 public class SignUpTest extends TestBase {
-
+    private AppiumDriver driver;
     private SignUpPage signUpPage;
     private WebViewPageBase webViewPageBase;
 
     @BeforeClass
     public void setUpSignUp() {
+        driver = DriverFactory.getDriver();
         signUpPage = new SignUpPage(driver);
         webViewPageBase = new WebViewPageBase(driver);
 

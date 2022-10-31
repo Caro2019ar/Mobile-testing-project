@@ -31,24 +31,24 @@ public class WebViewTest extends TestBase {
     }
 
 
-    //   @Test(groups = {"webview_rightMenu"}, dependsOnGroups = "signup")
-    /*@Test
+
+    @Test
     @Description("Webview right menu")
     @Story("Story: user can open right menu")
     @Step("Click on right menu of WebView")
     public void clickRightHambMenu() {
        ContextHandler.changeContext(driver, ContextUtil.WEB.getContext());
         webViewPage.clickRightMenuWeb();
-    }*/
+    }
 
-    //@Test(dependsOnMethods = "clickRightHambMenu")
-    @Test
+    @Test(dependsOnMethods = "clickRightHambMenu")
     @Description("openLeftMenu")
     @Step("openLeftMenu")
     public void openLeftMenu() {
         ContextHandler.changeContext(driver, ContextUtil.NATIVE.getContext());
         webViewPage.clickLeftHambMenu();
         leftMenuPage.waitProfile();
+        AllureListener.takeScreenShotAllure(driver);
         Assert.assertEquals(driver.findElement(By.xpath("//android.widget.TextView[@text='Lorem ipsum']")).getText(), "Lorem ipsum");
     }
 

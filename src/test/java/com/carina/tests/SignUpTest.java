@@ -60,6 +60,7 @@ public class SignUpTest extends TestBase {
     @Step("Click on signup button")
     public void clickOnSignup() {
         signUpPage.clickSignBtn();
+        AllureListener.takeScreenShotAllure(driver);
     }
 
     @Test(dependsOnMethods = "clickOnSignup")

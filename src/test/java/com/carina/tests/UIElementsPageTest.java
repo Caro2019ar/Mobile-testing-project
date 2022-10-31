@@ -70,7 +70,7 @@ public class UIElementsPageTest extends TestBase {
     @Step("enableClick")
     public void enableClick() {
         uiElementsPage.clickEnable();
-//        AllureListener.takeScreenShotAllure(driver);
+        AllureListener.takeScreenShotAllure(driver);
     }
 
     private void scrollDown() {

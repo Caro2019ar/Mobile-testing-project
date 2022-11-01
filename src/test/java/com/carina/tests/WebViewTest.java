@@ -8,6 +8,7 @@ import com.carina.base.TestBase;
 import com.carina.pagesObj.LeftMenuPage;
 import com.carina.pagesObj.WebViewPage;
 import com.carina.util.ContextUtil;
+import com.carina.util.ScrollDownUtil;
 import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
@@ -33,6 +34,13 @@ public class WebViewTest extends TestBase {
         leftMenuPage = new LeftMenuPage(driver);
     }
 
+    @Test(priority = 0)
+    @Description("ScrollDown")
+    @Story("Scroll down the webview")
+    @Step("Scroll down the webview")
+    public void scrollDownWebView() {
+        ScrollDownUtil.scrollDown(driver, 0.8, 0.4);
+    }
 
     @Test(priority = 1)
     @Description("Webview right menu")
@@ -41,7 +49,7 @@ public class WebViewTest extends TestBase {
     public void clickRightHambMenu() {
         ContextHandler.changeContext(driver, ContextUtil.WEB.getContext());
         webViewPage.clickRightMenuWeb();
-        ContextHandler.changeContext(driver, ContextUtil.NATIVE.getContext());
+
     }
 
     @Test(priority = 2)

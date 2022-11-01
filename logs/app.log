@@ -1,14 +1,4 @@
-2022-10-31 19:11:05,430 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method showChartsPageAndBananas succeed
-2022-10-31 19:11:05,443 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickLeftMenu start
-2022-10-31 19:11:16,548 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 1: NATIVE_APP
-2022-10-31 19:11:16,549 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] Context 2: NATIVE_APP
-2022-10-31 19:11:16,697 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method clickLeftMenu succeed
-2022-10-31 19:11:16,700 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method goToUIElements start
-2022-10-31 19:11:18,047 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method goToUIElements succeed
-2022-10-31 19:11:18,049 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method insertDataInUIElements start
-2022-10-31 19:11:28,026 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method insertDataInUIElements succeed
-2022-10-31 19:11:28,028 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method clickProgressBars start
-2022-10-31 19:11:28,817 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method clickProgressBars succeed
-2022-10-31 19:11:28,825 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] onTestStart - method enableClick start
-2022-10-31 19:11:29,389 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-5] ====== Method enableClick succeed
-2022-10-31 19:11:30,854 INFO c.c.l.Log [main]  onFinish - method Smoke Tests for Carina Mobile
+2022-11-01 09:01:00,115 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] ====== Method clickProgressBars succeed
+2022-11-01 09:01:00,124 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] onTestStart - method enableClick start
+2022-11-01 09:01:01,439 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] ====== Method enableClick succeed
+2022-11-01 09:01:02,296 INFO c.c.l.Log [main]  onFinish - method Smoke Tests for Carina Mobile

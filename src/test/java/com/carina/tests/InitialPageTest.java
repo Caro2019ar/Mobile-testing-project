@@ -32,11 +32,21 @@ public class InitialPageTest extends TestBase {
     }
 
     @Test
+    @Description("Wait Carina is loaded")
+    @Story("Story: Can view the Carina logo")
+    @Step("Wait Carina Logo")
+    public void visibleCariana() {
+        initialPage.waitVisibleCarina();
+        Assert.assertTrue(driver.findElement(By.id("carina_logo")).isDisplayed());
+
+    }
+
+    @Test(dependsOnMethods = "visibleCariana")
     @Description("Verify and click on NEXT  button")
     @Story("Story: Can initiate app")
     @Step("Initiate page and click on NEXT")
     public void clickOnNext() {
-
+        Assert.assertTrue(driver.findElement(By.id("next_button")).isDisplayed());
         initialPage.clickNextBtn();
     }
 

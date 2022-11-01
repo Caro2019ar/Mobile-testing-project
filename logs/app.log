@@ -1,4 +1,32 @@
-2022-11-01 09:01:00,115 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] ====== Method clickProgressBars succeed
-2022-11-01 09:01:00,124 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] onTestStart - method enableClick start
-2022-11-01 09:01:01,439 INFO c.c.l.Log [TestNG-test=Smoke Tests for Carina Mobile-2] ====== Method enableClick succeed
-2022-11-01 09:01:02,296 INFO c.c.l.Log [main]  onFinish - method Smoke Tests for Carina Mobile
+2022-11-01 10:17:14,764 INFO c.c.l.Log [TestNG-tests-1] -----onStart method Smoke Tests for Carina Mobile null
+2022-11-01 10:17:14,839 INFO c.c.l.Log [TestNG-tests-1] capabilities.platformName : ANDROID
+2022-11-01 10:17:14,839 INFO c.c.l.Log [TestNG-tests-1] capabilities.platformVersion : 9.0
+2022-11-01 10:17:14,839 INFO c.c.l.Log [TestNG-tests-1] capabilities.automationName : UiAutomator2
+2022-11-01 10:17:14,840 INFO c.c.l.Log [TestNG-tests-1] capabilities.noReset : true
+2022-11-01 10:17:14,840 INFO c.c.l.Log [TestNG-tests-1] capabilities.autoGrantPermissions : true
+2022-11-01 10:17:14,878 INFO c.c.l.Log [TestNG-tests-1] androiddriver.url : http://localhost:4723/wd/hub
+2022-11-01 10:17:27,799 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method visibleCariana start
+2022-11-01 10:17:28,067 INFO c.c.l.Log [TestNG-tests-1] ====== Method visibleCariana succeed
+2022-11-01 10:17:28,071 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method clickOnNext start
+2022-11-01 10:17:28,274 INFO c.c.l.Log [TestNG-tests-1] ====== Method clickOnNext succeed
+2022-11-01 10:17:28,275 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method goToSignupPageSuccessfully start
+2022-11-01 10:17:31,112 INFO c.c.l.Log [TestNG-tests-1] ====== Method goToSignupPageSuccessfully succeed
+2022-11-01 10:17:31,124 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method canViewBackButton start
+2022-11-01 10:17:31,175 INFO c.c.l.Log [TestNG-tests-1] ====== Method canViewBackButton succeed
+2022-11-01 10:17:31,176 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method canViewTheCarinaText start
+2022-11-01 10:17:31,920 INFO c.c.l.Log [TestNG-tests-1] ====== Method canViewTheCarinaText succeed
+2022-11-01 10:17:31,925 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method enterNamePasswordGender start
+2022-11-01 10:17:35,512 INFO c.c.l.Log [TestNG-tests-1] ====== Method enterNamePasswordGender succeed
+2022-11-01 10:17:35,513 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method clickOnAgree start
+2022-11-01 10:17:36,816 INFO c.c.l.Log [TestNG-tests-1] ====== Method clickOnAgree succeed
+2022-11-01 10:17:36,817 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method clickOnSignup start
+2022-11-01 10:17:38,993 INFO c.c.l.Log [TestNG-tests-1] ====== Method clickOnSignup succeed
+2022-11-01 10:17:38,996 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method signUpSuccessfully start
+2022-11-01 10:17:42,804 INFO c.c.l.Log [TestNG-tests-1] ====== Method signUpSuccessfully succeed
+2022-11-01 10:17:42,815 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method scrollDownWebView start
+2022-11-01 10:17:50,576 INFO c.c.l.Log [TestNG-tests-1] ====== Method scrollDownWebView succeed
+2022-11-01 10:17:50,577 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method openLeftMenu start
+2022-11-01 10:17:50,907 INFO c.c.l.Log [TestNG-tests-1] Context 1: NATIVE_APP
+2022-11-01 10:17:50,908 INFO c.c.l.Log [TestNG-tests-1] Context 2: NATIVE_APP
+2022-11-01 10:17:53,251 INFO c.c.l.Log [TestNG-tests-1] ====== Method openLeftMenu succeed
+2022-11-01 10:17:54,358 INFO c.c.l.Log [TestNG-tests-1]  onFinish - method Smoke Tests for Carina Mobile

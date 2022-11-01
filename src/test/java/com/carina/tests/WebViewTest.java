@@ -40,6 +40,7 @@ public class WebViewTest extends TestBase {
     @Step("Scroll down the webview")
     public void scrollDownWebView() {
         ScrollDownUtil.scrollDown(driver, 0.8, 0.4);
+        AllureListener.takeScreenShotAllure(driver);
     }
 
     @Test(priority = 1)
@@ -54,12 +55,13 @@ public class WebViewTest extends TestBase {
 
     @Test(priority = 2)
     @Description("openLeftMenu")
+    @Story("Story: user can open left menu")
     @Step("openLeftMenu")
     public void openLeftMenu() {
-
+        ContextHandler.changeContext(driver, ContextUtil.NATIVE.getContext());
         webViewPage.clickLeftHambMenu();
         leftMenuPage.waitProfile();
-        AllureListener.takeScreenShotAllure(driver);
+
         Assert.assertEquals(driver.findElement(By.xpath("//android.widget.TextView[@text='Lorem ipsum']")).getText(), "Lorem ipsum");
     }
 

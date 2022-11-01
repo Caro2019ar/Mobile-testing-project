@@ -11,6 +11,13 @@ public class SignUpPage extends PageBase {
         super(appiumDriver);
     }
 
+    @AndroidFindBy(id = "backButton")
+    MobileElement backButton;
+
+    @AndroidFindBy(xpath = "//android.widget.TextView[@text='CARINA']")
+    MobileElement carinaText;
+
+
     @AndroidFindBy(id = "name")
     MobileElement nameSignUp;
 
@@ -22,10 +29,14 @@ public class SignUpPage extends PageBase {
     MobileElement radioFemale;
     @AndroidFindBy(id = "checkbox")
     MobileElement agreeCheck;
+
+    @AndroidFindBy(xpath = "//android.widget.Switch[@text='I agree to the Privacy Policy OFF']")
+    MobileElement agreeTextOFF;
+
     @AndroidFindBy(id = "login_button")
     MobileElement signUpBtn;
 
-    @AndroidFindBy(id="loginForm")
+    @AndroidFindBy(id = "loginForm")
     MobileElement loginForm;
 
     public void enterName(String nameTxt) {
@@ -46,6 +57,14 @@ public class SignUpPage extends PageBase {
         click(radioFemale);
     }
 
+    public void clickGender(String gender) {
+        if (gender.contains("female")) {
+            click(radioFemale);
+        } else {
+            click(radioMale);
+        }
+    }
+
     public void clickCheckBtn() {
         click(agreeCheck);
     }
@@ -54,7 +73,19 @@ public class SignUpPage extends PageBase {
         click(signUpBtn);
     }
 
-    public void waitLoginForm(){
+    public void waitLoginForm() {
         waitForVisibility(loginForm);
+    }
+
+    public void clickBackBtn() {
+        click(backButton);
+    }
+
+    public void waitCarinaText() {
+        waitForVisibility(carinaText);
+    }
+
+    public void visibleAgreeTextOFF() {
+        waitForVisibility(agreeTextOFF);
     }
 }

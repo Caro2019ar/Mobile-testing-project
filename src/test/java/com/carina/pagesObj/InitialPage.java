@@ -14,6 +14,9 @@ public class InitialPage extends PageBase {
         super(driver);
     }
 
+    @AndroidFindBy(id = "carina_logo")
+    MobileElement carinaLogo;
+
     @AndroidFindBy(id = "next_button")
     MobileElement nextBtn;
 
@@ -21,5 +24,7 @@ public class InitialPage extends PageBase {
         click(nextBtn);
     }
 
-
+    public void waitVisibleCarina(){
+         waitForVisibility(carinaLogo);
+    }
 }

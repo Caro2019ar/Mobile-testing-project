@@ -33,19 +33,30 @@ public class SignUpTest extends TestBase {
 
     }
 
+    @Test(priority = 1)
+    @Description("Check the Carina Text")
+    @Step("Can see the Carina text")
+    public void canViewTheCarinaText() {
+        signUpPage.waitCarinaText();
+        Assert.assertTrue(driver.findElement(By.xpath("//android.widget.TextView[@text='CARINA']")).isDisplayed());
+    }
 
-    @Test(dataProviderClass = SignUpDP.class, dataProvider = "signUpData")
+    @Test(priority = 1)
+    @Description("Check the Back button")
+    @Step("Can see the Back button")
+    public void canViewBackButton() {
+        Assert.assertTrue(driver.findElement(By.id("backButton")).isDisplayed());
+    }
+
+    @Test(dataProviderClass = SignUpDP.class, dataProvider = "signUpData", dependsOnMethods = "canViewTheCarinaText")
     @Description("Signup")
     @Story("Story: Can enter user´s data and signup")
     @Step("Enter name, password and gender")
     public void enterNamePasswordGender(String name, String password, String gender) {
         signUpPage.enterName(name);
         signUpPage.enterPassword(password);
-        if (gender.contains("female")) {
-            signUpPage.clickFemale();
-        } else {
-            signUpPage.clickMale();
-        }
+        signUpPage.clickGender(gender);
+
     }
 
 
@@ -54,7 +65,10 @@ public class SignUpTest extends TestBase {
     @Story("Story: Can agree on terms")
     @Step("Click on agree")
     public void clickOnAgree() {
+        signUpPage.visibleAgreeTextOFF();
+        Assert.assertTrue(driver.findElement(By.xpath("//android.widget.Switch[@text='I agree to the Privacy Policy OFF']")).isDisplayed());
         signUpPage.clickCheckBtn();
+        Assert.assertTrue(driver.findElement(By.xpath("//android.widget.Switch[@text='I agree to the Privacy Policy ON']")).isDisplayed());
     }
 
     @Test(dependsOnMethods = "clickOnAgree")
@@ -62,6 +76,7 @@ public class SignUpTest extends TestBase {
     @Story("Story: Can click on signup button")
     @Step("Click on signup button")
     public void clickOnSignup() {
+        Assert.assertTrue(driver.findElement(By.id("login_button")).isDisplayed());
         signUpPage.clickSignBtn();
         AllureListener.takeScreenShotAllure(driver);
     }

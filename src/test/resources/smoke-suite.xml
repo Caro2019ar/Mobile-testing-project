@@ -21,17 +21,17 @@
             </class>
             <class name="com.carina.tests.SignUpTest">
             </class>
-            <class name="com.carina.tests.WebViewTest">
+           <class name="com.carina.tests.WebViewTest">
                 <methods>
                     <exclude name="clickRightHambMenu"/>
                 </methods>
             </class>
-            <class name="com.carina.tests.LeftMenuPageTest">
+            <!--<class name="com.carina.tests.LeftMenuPageTest">
             </class>
             <class name="com.carina.tests.ChartsPageTest">
             </class>
             <class name="com.carina.tests.UIElementsPageTest">
-            </class>
+            </class>-->
         </classes>
     </test>
 </suite>

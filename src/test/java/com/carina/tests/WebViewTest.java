@@ -5,29 +5,19 @@ import com.carina.allureReport.AllureListener;
 import com.carina.base.ContextHandler;
 import com.carina.base.DriverFactory;
 import com.carina.base.TestBase;
-import com.carina.log.Log;
 import com.carina.pagesObj.LeftMenuPage;
 import com.carina.pagesObj.WebViewPage;
 import com.carina.util.ContextUtil;
 import com.carina.util.ScrollDownUtil;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.MobileBy;
 import io.appium.java_client.MobileElement;
-import io.appium.java_client.pagefactory.AndroidFindBy;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
-
-import java.util.List;
-
-import static com.carina.base.WebViewPageBase.WAIT;
 
 @Listeners({AllureListener.class})
 @Epic("EP001")
@@ -51,8 +41,10 @@ public class WebViewTest extends TestBase {
     @Description("ScrollDown")
     @Story("Scroll down the webview")
     @Step("Scroll down the webview")
-    public void scrollDownWebView() {
+    public void scrollDownWebView() throws InterruptedException {
+
         ContextHandler.changeContext(driver, ContextUtil.WEB.getContext());
+
         ScrollDownUtil.scrollDown(driver, 0.8, 0.4);
 
     }
@@ -90,10 +82,10 @@ public class WebViewTest extends TestBase {
     public void clickRightHambMenu() {
         ContextHandler.changeContext(driver, ContextUtil.WEB.getContext());
         webViewPage.clickRightMenuWeb();
-
+        AllureListener.takeScreenShotAllure(driver);
     }
 
-    @Test(priority = 2)
+    @Test(dependsOnMethods = "clickRightHambMenu")
     @Description("openLeftMenu")
     @Story("Story: user can open left menu")
     @Step("openLeftMenu")
@@ -101,7 +93,6 @@ public class WebViewTest extends TestBase {
         ContextHandler.changeContext(driver, ContextUtil.NATIVE.getContext());
         webViewPage.clickLeftHambMenu();
         leftMenuPage.waitProfile();
-
         Assert.assertEquals(driver.findElement(By.xpath("//android.widget.TextView[@text='Lorem ipsum']")).getText(), "Lorem ipsum");
     }
 

@@ -24,7 +24,7 @@
             <class name="com.carina.tests.WebViewTest">
                 <parameter name="URL" value="https://github.com/zebrunner/carina"/>
                 <methods>
-                    <exclude name="clickRightHambMenu"/>
+                    <exclude name="scrollDownWebView"/>
                     <exclude name="clickOnReadOnGithub"/>
                     <exclude name="readOnGithub"/>
                 </methods>

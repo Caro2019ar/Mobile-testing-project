@@ -1,25 +1,14 @@
-2022-11-01 17:28:00,123 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-4] ====== Method canViewBackButton succeed
-2022-11-01 17:28:00,277 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] ====== Method canViewTheCarinaText succeed
-2022-11-01 17:28:00,287 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] onTestStart - method enterNamePasswordGender start
-2022-11-01 17:28:03,567 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] ====== Method enterNamePasswordGender succeed
-2022-11-01 17:28:03,568 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] onTestStart - method clickOnAgree start
-2022-11-01 17:28:04,867 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] ====== Method clickOnAgree succeed
-2022-11-01 17:28:04,868 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] onTestStart - method clickOnSignup start
-2022-11-01 17:28:07,266 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] ====== Method clickOnSignup succeed
-2022-11-01 17:28:07,268 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] onTestStart - method signUpSuccessfully start
-2022-11-01 17:28:10,019 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] ====== Method signUpSuccessfully succeed
-2022-11-01 17:28:10,035 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] onTestStart - method scrollDownWebView start
-2022-11-01 17:28:10,662 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] Context 1: NATIVE_APP
-2022-11-01 17:28:10,663 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
-2022-11-01 17:28:10,663 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] Context 1 - Contains WEBVIEW: WEBVIEW_com.solvd.carinademoapplication
-2022-11-01 17:28:19,390 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] ====== Method scrollDownWebView succeed
-2022-11-01 17:28:19,392 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] onTestStart - method clickOnReadOnGithub start
-2022-11-01 17:28:19,607 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] Context 1: NATIVE_APP
-2022-11-01 17:28:19,607 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] Context 1: WEBVIEW_com.solvd.carinademoapplication
-2022-11-01 17:28:19,607 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] Context 1 - Contains WEBVIEW: WEBVIEW_com.solvd.carinademoapplication
-2022-11-01 17:28:20,394 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] ====== Method clickOnReadOnGithub succeed
-2022-11-01 17:28:20,397 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] onTestStart - method readOnGithub start
-2022-11-01 17:28:21,605 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] Context 1: NATIVE_APP
-2022-11-01 17:28:21,607 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] Context 2: NATIVE_APP
-2022-11-01 17:28:34,663 INFO c.c.l.Log [TestNG-test=Regression n1 Tests for Carina Mobile-5] ====== Method readOnGithub succeed
-2022-11-01 17:28:39,451 INFO c.c.l.Log [main]  onFinish - method Regression n1 Tests for Carina Mobile
+2022-11-01 17:54:01,121 INFO c.c.l.Log [TestNG-tests-1] ====== Method showChartsPageAndBananas succeed
+2022-11-01 17:54:01,189 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method clickLeftMenu start
+2022-11-01 17:54:15,924 INFO c.c.l.Log [TestNG-tests-1] Context 1: NATIVE_APP
+2022-11-01 17:54:15,931 INFO c.c.l.Log [TestNG-tests-1] Context 2: NATIVE_APP
+2022-11-01 17:54:16,655 INFO c.c.l.Log [TestNG-tests-1] ====== Method clickLeftMenu succeed
+2022-11-01 17:54:16,732 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method goToUIElements start
+2022-11-01 17:54:20,448 INFO c.c.l.Log [TestNG-tests-1] ====== Method goToUIElements succeed
+2022-11-01 17:54:20,469 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method insertDataInUIElements start
+2022-11-01 17:54:36,580 INFO c.c.l.Log [TestNG-tests-1] ====== Method insertDataInUIElements succeed
+2022-11-01 17:54:36,628 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method clickProgressBars start
+2022-11-01 17:54:37,484 INFO c.c.l.Log [TestNG-tests-1] ====== Method clickProgressBars succeed
+2022-11-01 17:54:37,489 INFO c.c.l.Log [TestNG-tests-1] onTestStart - method enableClick start
+2022-11-01 17:54:41,945 INFO c.c.l.Log [TestNG-tests-1] ====== Method enableClick succeed
+2022-11-01 17:54:46,614 INFO c.c.l.Log [TestNG-tests-1]  onFinish - method Smoke Tests for Carina Mobile

@@ -1,9 +1,7 @@
 package com.carina.allureReport;
 
 import com.carina.base.DriverFactory;
-import com.carina.base.TestBase;
 import com.carina.log.Log;
-import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.Allure;
 import io.qameta.allure.Attachment;
 import org.apache.commons.io.FileUtils;
@@ -11,7 +9,6 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.testng.ITestContext;
-import org.testng.ITestListener;
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;
 
@@ -87,7 +84,7 @@ public class AllureListener extends TestListenerAdapter {
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
-        //takeScreenshotToFile(iTestResult);
+        takeScreenshotToFile(iTestResult);
         Log.info("-----onTestFailure - method " + getTestMethodName(iTestResult) + " failed");
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
     }

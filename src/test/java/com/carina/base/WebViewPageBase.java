@@ -17,8 +17,10 @@ public class WebViewPageBase extends PageBase {
 
     @AndroidFindBy(accessibility = "Navigate up")
     MobileElement leftHambMenu;
+
     @AndroidFindBy(id = "toolbar")
     MobileElement toolbar;
+
     @AndroidFindBy(id = "image_view")
     MobileElement imageView;
 

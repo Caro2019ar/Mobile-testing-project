@@ -40,6 +40,14 @@ public class WebViewPageBase extends PageBase {
         By by = By.xpath(xpathString);
         wait.until(ExpectedConditions.visibilityOfElementLocated(by));
     }
+    public void waitForVisibilityWeb(WebElement element) {
+        WebDriverWait wait = new WebDriverWait(driver, WAIT);
+        wait.until(ExpectedConditions.visibilityOf(element));
+    }
 
+    public void clickWeb(WebElement element) {
+        waitForVisibilityWeb(element);
+        element.click();
+    }
 
 }

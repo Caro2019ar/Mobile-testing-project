@@ -10,6 +10,7 @@ public class DesiredCapabilitiesUtil {
         caps.setCapability("platformVersion", prop.readProperty("capabilities.platformVersion"));
         caps.setCapability("automationName", prop.readProperty("capabilities.automationName"));
         caps.setCapability("noReset", prop.readProperty("capabilities.noReset"));
+        caps.setCapability("setWebContentsDebuggingEnabled", prop.readProperty("capabilities.setWebContentsDebuggingEnabled"));
         caps.setCapability("autoGrantPermissions", prop.readProperty("capabilities.autoGrantPermissions"));
         caps.setCapability("app", System.getProperty("user.dir") + "/apps/carinademoexample.apk");
         return caps;

@@ -2,7 +2,6 @@ package com.carina.pagesObj;
 
 import com.carina.base.WebViewPageBase;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -18,13 +17,32 @@ public class WebViewPage extends WebViewPageBase {
     WebElement burgerWeb;
 
 
+    @FindBy(xpath = "/html/body/div[1]/div[2]/div/div/div[6]/a")
+    WebElement readOnGitHub;
+
+
+  /*  @FindBys({
+            @FindBy(tagName = "a"),
+            @FindBy(linkText = "Read on GitHub")
+    })
+    WebElement readOnGitHub;*/
+//    List<WebElement> readOnGitHub;
+
     String menuXpath = "//*[@id=\"rec42972268\"]";
+
+
+    public void waitVisibleGitHub() {
+        waitForVisibilityWeb(readOnGitHub);
+    }
+
     public void clickRightMenuWeb() {
         waitForVisibilityWeb(menuXpath);
     }
 
+    public void clickReadOnGit() {
+        clickWeb(readOnGitHub);
+    }
 
-//*[@id="screenshotContainer"]/div[2]/div/div/div/div/div[40]/div
-    //readongithub
-    // xpath = //*[@id="nav40073764"]/div/div[3]/div/ul/li[1]/a
 }
+
+

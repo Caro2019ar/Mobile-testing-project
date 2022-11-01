@@ -87,7 +87,7 @@ public class AllureListener extends TestListenerAdapter {
 
     @Override
     public void onTestFailure(ITestResult iTestResult) {
-        takeScreenshotToFile(iTestResult);
+        //takeScreenshotToFile(iTestResult);
         Log.info("-----onTestFailure - method " + getTestMethodName(iTestResult) + " failed");
         saveTextLog(getTestMethodName(iTestResult) + " failed and screenshot taken!");
     }

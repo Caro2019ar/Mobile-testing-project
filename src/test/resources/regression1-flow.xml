@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<suite name="Smoke Suite Carina Mobile" parallel="methods" thread-count="5">
+<suite name="Regression Suite Carina Mobile" parallel="methods" thread-count="5">
     <listeners>
         <listener class-name="com.carina.allureReport.AllureListener"/>
     </listeners>
-    <test name="Smoke Tests for Carina Mobile">
+    <test name="Regression n1 Tests for Carina Mobile">
         <groups>
-            <define name="smoke">
+            <define name="regression">
                 <run>
                     <include name="initialize"/>
                     <include name="signup"/>
                     <include name="webview"/>
-                    <include name="leftMenu"/>
-                    <include name="chartspage"/>
-                    <include name="uiElements"/>
                 </run>
             </define>
         </groups>
@@ -24,17 +21,12 @@
             <class name="com.carina.tests.WebViewTest">
                 <parameter name="URL" value="https://github.com/zebrunner/carina"/>
                 <methods>
-                    <exclude name="clickRightHambMenu"/>
-                    <exclude name="clickOnReadOnGithub"/>
-                    <exclude name="readOnGithub"/>
+                    <include name="scrollDownWebView"/>
+                    <include name="clickOnReadOnGithub"/>
+                    <include name="readOnGithub"/>
                 </methods>
             </class>
-            <class name="com.carina.tests.LeftMenuPageTest">
-            </class>
-            <class name="com.carina.tests.ChartsPageTest">
-            </class>
-            <class name="com.carina.tests.UIElementsPageTest">
-            </class>
+
         </classes>
     </test>
 </suite>

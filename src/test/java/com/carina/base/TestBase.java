@@ -3,7 +3,7 @@ package com.carina.base;
 import org.testng.annotations.AfterTest;
 
 public class TestBase {
-    @AfterTest
+   @AfterTest
     public void teardown() {
         DriverFactory.killDriver();
     }

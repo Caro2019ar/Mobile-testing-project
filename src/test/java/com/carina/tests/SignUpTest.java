@@ -4,9 +4,9 @@ package com.carina.tests;
 import com.carina.allureReport.AllureListener;
 import com.carina.base.DriverFactory;
 import com.carina.base.TestBase;
-import com.carina.base.WebViewPageBase;
 import com.carina.dataproviders.SignUpDP;
 import com.carina.pagesObj.SignUpPage;
+import com.carina.pagesObj.WebViewPage;
 import io.appium.java_client.AppiumDriver;
 import io.qameta.allure.*;
 import org.openqa.selenium.By;
@@ -23,13 +23,13 @@ import org.testng.annotations.Test;
 public class SignUpTest extends TestBase {
     private AppiumDriver driver;
     private SignUpPage signUpPage;
-    private WebViewPageBase webViewPageBase;
+    private WebViewPage webViewPage;
 
     @BeforeClass
     public void setUpSignUp() {
         driver = DriverFactory.getDriver();
         signUpPage = new SignUpPage(driver);
-        webViewPageBase = new WebViewPageBase(driver);
+        webViewPage = new WebViewPage(driver);
 
     }
 
@@ -85,7 +85,7 @@ public class SignUpTest extends TestBase {
     @Description("Assert signUpSuccessfully")
     @Step("signUpSuccessfully")
     public void signUpSuccessfully() {
-        webViewPageBase.waitToolbar();
+        webViewPage.waitToolbar();
         Assert.assertTrue(driver.findElement(By.id("toolbar")).isDisplayed());
     }
 

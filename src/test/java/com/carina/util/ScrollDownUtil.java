@@ -8,8 +8,8 @@ import org.openqa.selenium.Dimension;
 
 import java.time.Duration;
 
-public class ScrollDownUtil {
-    public static void scrollDown(AppiumDriver driver,double start, double end) {
+public  class ScrollDownUtil {
+    public void scrollDown(AppiumDriver driver,double start, double end) {
         Dimension dimension = driver.manage().window().getSize();
         int scrollStart = (int) (dimension.getHeight() * start);
         int scrollEnd = (int) (dimension.getHeight() * end);

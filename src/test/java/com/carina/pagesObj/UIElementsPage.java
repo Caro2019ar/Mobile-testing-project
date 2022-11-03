@@ -106,7 +106,8 @@ public class UIElementsPage extends WebViewPageBase {
     }
 
     public void scrollDown(AppiumDriver driver, double start, double end) {
-        ScrollDownUtil.scrollDown(driver, start, end);
+        ScrollDownUtil scrollUtil = new ScrollDownUtil();
+        scrollUtil.scrollDown(driver, start, end);
     }
 
 }

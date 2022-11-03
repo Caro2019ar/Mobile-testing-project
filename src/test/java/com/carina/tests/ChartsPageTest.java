@@ -58,7 +58,8 @@ public class ChartsPageTest extends TestBase {
     @Description("Go back to left menu")
     @Step("click on left Menu and open it")
     public void clickLeftMenu()  {
-        ScrollDownUtil.scrollDown(driver, 0.8, 0.0);
+        ScrollDownUtil scrollUtil = new ScrollDownUtil();
+        scrollUtil.scrollDown(driver, 0.8, 0.0);
         ContextHandler.changeContext(driver, ContextUtil.NATIVE.getContext());
         webViewPage.clickLeftHambMenu();
     }
